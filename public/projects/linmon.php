@@ -15,9 +15,9 @@
                             <li>Logo |</li>
                             <li>Brand Identity</li>
                         </ul>
-                        <h1></h1>
-                        <p></p>
-                        <p></p>
+                        <h1>Linmon</h1>
+                        <p>Linmon is a fictional beverage company that sells lemon-based tea drinks.</p>
+                        <p>The objective of this project was to design a logo and product packaging that have consistent branding. These assets would then would be used to create posters to advertise the company and drink.</p>
                     </div>
                 </section>
                 <section class="project-info">
@@ -48,17 +48,17 @@
                         <li class="col col-4">
                             <p class="num1">01</p>
                             <h3>Brainstorm</h3>
-                            <p></p>
+                            <p>Brainstorm a beverage company and design a logo</p>
                         </li>
                         <li class="col col-4">
                             <p class="num2">02</p>
                             <h3>Asset Creation</h3>
-                            <p></p>
+                            <p>Create product packaging and a 3D render of two different beverage containers</p>
                         </li>
                         <li class="col col-4">
                             <p class="num3">03</p>
                             <h3>Design</h3>
-                            <p></p>
+                            <p>Create posters that advertise the drink using Illustrator and Dimension</p>
                         </li>
                     </ul>
                 </section>
