@@ -1,0 +1,22 @@
+@use "../config";
+
+/*----------------------------------
+Get Connected
+----------------------------------*/
+.connect {
+    background-color: config.$light-yellow;
+    align-items: center;
+    justify-content: space-around;
+    // padding: 100px;
+}
+
+.contact-info {
+    flex-direction: column;
+    gap: 20px;
+}
+.soc-med {
+    gap: 20px;
+}
+.soc-med .black {
+    filter: invert(1);
+}

@@ -1,0 +1,26 @@
+@use "../config";
+
+/*----------------------------------
+Button
+----------------------------------*/
+// .btn {
+//     font-family: config.$primary-fonts;
+//     text-decoration: none;
+//     background-color: config.$turquoise;
+//     padding: 15px 40px;
+//     color: config.$white;
+//     border-radius: 15px;
+//     display: inline-block;
+// }
+
+.btn {
+    font-family: config.$primary-fonts;
+    text-decoration: none;
+    background-color: config.$turquoise;
+    padding: 15px 20px;
+    color: config.$white;
+    border-radius: 15px;
+    display: block;
+    text-align: center;
+    max-width: 200px;
+}

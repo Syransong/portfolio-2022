@@ -1,0 +1,63 @@
+@use "../config";
+
+/*----------------------------------
+About Intro
+----------------------------------*/
+// .about-intro {
+//     align-items: center;
+//     gap: 20px;
+// }
+
+// .about-intro p {
+//     margin-bottom: 20px;
+// }
+
+.about-intro {
+    align-items: center;
+}
+.about-intro img {
+    grid-column: 1 / 7 ;
+}
+.about-intro .about-info {
+    grid-column: 8 / 13;
+}
+
+.skillset .about-skills{
+    grid-column: auto / span 5;
+}
+
+.skillset .education {
+    grid-column: 8 / 13 ;
+}
+
+.skillset h3 {
+    font-size: 1.4rem;
+}
+
+.about-skills li {
+    margin-bottom: 1.4rem;
+}
+
+.education .institute {
+    display: flex;
+    justify-content: space-between;
+}
+
+.education .institute p {
+    font-size: 1.4rem;
+    font-family: config.$primary-fonts;
+    font-weight: 500;
+}
+
+.education  li {
+    margin-bottom: 1.4rem;
+}
+
+.hobbies {
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.hobbies li {
+    margin-bottom: 1.5rem;
+}

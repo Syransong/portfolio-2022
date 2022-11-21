@@ -1,0 +1,21 @@
+@use "../config";
+
+/*----------------------------------
+Footer
+----------------------------------*/
+footer {
+    background-color: config.$turquoise;
+    padding: 20px 50px;
+    justify-content: space-between;
+    align-items: center;
+    color: config.$white;
+}
+
+footer img {
+    height: 44px;
+    width: auto;
+}
+
+footer ul {
+    gap: 20px;
+}

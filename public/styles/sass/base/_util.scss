@@ -1,0 +1,114 @@
+
+
+// theme wrap, display flex, text center 
+
+/*----------------------------------
+Global
+----------------------------------*/
+
+.theme-wrap {
+    // max-width: 90vw;
+    margin: 0 auto;
+}
+
+// section {
+//     padding: 75px 0px;
+// }
+
+/*----------------------------------
+Grid
+----------------------------------*/
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 2rem;
+}
+
+.col {
+    grid-column: auto / span 12; 
+}
+
+.col.col-1 {
+    grid-column: auto / span 1;
+}
+
+.col.col-2 {
+    grid-column: auto / span 2;
+}
+
+.col.col-3 {
+    grid-column: auto / span 3;
+}
+
+.col.col-4 {
+    grid-column: auto / span 4;
+}
+
+.col.col-5 {
+    grid-column: auto / span 5;
+}
+
+.col.col-6 {
+    grid-column: auto / span 6;
+}
+
+.col.col-7 {
+    grid-column: auto / span 7;
+}
+
+.col.col-8 {
+    grid-column: auto / span 8;
+}
+
+.col.col-9 {
+    grid-column: auto / span 9;
+}
+
+.col.col-10 {
+    grid-column: auto / span 10;
+}
+
+.col.col-11 {
+    grid-column: auto / span 11;
+}
+
+.col.col-12 {
+    grid-column: auto / span 12;
+}
+
+
+/*----------------------------------
+Helper Classes
+----------------------------------*/
+
+.d-flex {
+	display: flex;
+}
+
+.flex-middle {
+    align-content: center;
+}
+
+.flex-end {
+    justify-content: end;
+}
+
+.container {
+    max-width: 67.5rem;
+    width: 100%;
+    margin: 0 auto;
+    // padding: 0px 1rem;
+}
+
+.m-top {
+    margin-top: 6rem;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.box-shadow {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}

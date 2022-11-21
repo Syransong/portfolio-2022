@@ -1,0 +1,24 @@
+// img {
+//     width: 100%;
+// }
+
+.proj-preview-img {
+    grid-column: 7 / 12;
+    max-height: 550px;
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+    position: absolute;
+    bottom: 0;
+    top: 20%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+figure img {
+    width: 100%;
+}
+
+.tliving .btn {
+    margin: 5rem auto;
+}

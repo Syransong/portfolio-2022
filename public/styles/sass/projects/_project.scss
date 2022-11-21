@@ -1,0 +1,63 @@
+@use "../config";
+
+/*----------------------------------
+Project banner
+----------------------------------*/
+.project-bnr {
+    background-color: config.$light-yellow;
+    position: relative;
+    overflow: hidden;
+}
+
+.proj-bnr-info{
+    grid-column: 2 / span 4;
+}
+
+.project-bnr{
+    grid-column: 7 / span 4;
+}
+
+.project-info ul {
+    justify-content: space-between;
+}
+
+.proj-bnr-info p {
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+}
+
+
+// Project Summary 
+
+.project-summary ul {
+
+}
+
+// .project-summary li:first-child {
+//     grid-column: auto / span 4;
+// }
+
+// .project-summary li:nth-child(2) {
+//     grid-column: auto / span 4;
+// }
+
+// .project-summary li:nth-child(3) {
+//     grid-column: auto / span 4;
+// }
+
+.project-summary .num1, .num2, .num3 {
+    font-size: 1.8rem;
+    font-family: config.$primary-fonts;
+    font-weight: 500;
+}
+.project-summary .num1 {
+    color: config.$yellow;
+}
+
+.project-summary .num2 {
+    color: config.$turquoise;
+}
+
+.project-summary .num3 {
+    color: config.$pink;
+}

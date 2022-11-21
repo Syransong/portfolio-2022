@@ -1,0 +1,73 @@
+@use "../config";
+/*----------------------------------
+Header
+----------------------------------*/
+
+.site-header__logo img {
+    width: 3rem;
+    max-width: 100%;
+}
+
+.site-header__menu {
+    flex-grow: 1;
+}
+
+.site-header_menu nav ul.d-flex {
+    row-gap: 0.5rem;
+}
+
+/*----------------------------------
+Header (Airrick's stuff) 
+----------------------------------*/
+header {
+    align-items: center;
+    position: fixed;
+    background-color: white;
+    margin: 0 auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    max-width: 100vw;
+    padding: 20px 50px;
+    justify-content: space-between;
+    z-index: 2;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+/*----------------------------------
+Navigation
+----------------------------------*/
+
+.gn ul {
+    gap: 40px;
+}
+.gn li {
+    display: inline-block;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.gn a {
+	position: relative;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+}
+
+.gn a::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 3px;
+    bottom: -3px;
+    left: 0;
+    background-color: config.$turquoise;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+
+a:hover::before {
+    transform: scaleX(1);
+}
