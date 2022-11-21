@@ -1,5 +1,5 @@
 .DS_Store
 
 # Ignore auto-generated styling files 
-styles/main.css
-styles/main.css.map
+public/styles/main.css
+public/styles/main.css.map
