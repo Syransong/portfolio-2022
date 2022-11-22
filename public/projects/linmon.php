@@ -19,6 +19,7 @@
                         <p>Linmon is a fictional beverage company that sells lemon-based tea drinks.</p>
                         <p>The objective of this project was to design a logo and product packaging that have consistent branding. These assets would then would be used to create posters to advertise the company and drink.</p>
                     </div>
+                    <img src="<?php echo get_public_url("/images/linmon_juicebox.png")?>" alt="3D render of lemon tea juice box" class="juicebox">
                 </section>
                 <section class="project-info">
                     <ul class="d-flex">
