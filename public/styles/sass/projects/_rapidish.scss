@@ -1,0 +1,12 @@
+@use "../config";
+
+// Project Banner
+.project-bnr .rapidish-mobile {
+    grid-column: 8 / 12;
+    max-height: 550px;
+    filter: drop-shadow(6px 10px 8px rgba(50, 50, 93, 0.25))
+}
+
+.live-link {
+    margin: 0 auto;
+}

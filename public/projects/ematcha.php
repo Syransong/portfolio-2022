@@ -85,7 +85,7 @@
                 <section class="grid align-items-center">
                     <figure class="col col-4">
                         <img src="<?php echo get_public_url("images/ematcha-logo-sketches.jpg") ?>" alt="Thumbnails of the Emerald Matcha logo">
-                        <figcaption>Thumbanils of the Emerald Matcha logo</figcaption>
+                        <figcaption>Thumbnails of the Emerald Matcha logo</figcaption>
                     </figure>
                     <div class="col col-6">
                         <h2>Logo Design</h2>
