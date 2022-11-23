@@ -13,4 +13,5 @@
     // require_once(get_project_path('/Classes/Project.php'));
     require(get_project_path('/app/Classes/Project.php'));
     require(get_project_path('/app/data/design-projects.php'));
+    require(get_project_path('/app/data/dev-projects.php'));
 ?>
