@@ -12,5 +12,5 @@
     // By bringing in the functions.php file above, we have access to the custom function "get_project_path()". As a result, we're able to get the file path of the Pokemon Class file. 
     // require_once(get_project_path('/Classes/Project.php'));
     require(get_project_path('/app/Classes/Project.php'));
-    require(get_project_path('/app/data/projects.php'));
+    require(get_project_path('/app/data/design-projects.php'));
 ?>

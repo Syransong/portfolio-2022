@@ -29,7 +29,7 @@
         'project_url' => 'tliving.php'
     ]);
 
-    $projects = [
+    $design_projects = [
         $linmon,
         $ematcha,
         $tliving

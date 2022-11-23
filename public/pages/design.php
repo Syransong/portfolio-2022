@@ -1,7 +1,5 @@
 <?php
     require('../../app/init.php');
-    // require('../../app/Classes/Project.php'); 
-    // require('../../app/data/projects.php');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -22,7 +20,7 @@
                         </ul>
                 </section>
                 <section class="project-list">
-                    <?php foreach($projects as $project): ?>
+                    <?php foreach($design_projects as $project): ?>
                         <?php include(get_project_path('public/partials/projects/large-card.php')); ?>
                     <?php endforeach; ?>
                     <a href="#" class="btn">View More</a>
