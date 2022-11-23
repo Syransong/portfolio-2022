@@ -86,7 +86,7 @@
                     <h2>Poster using Adobe Dimension</h2>
                     <p>The same packaging assets were used to create a more realistic marketing poster using Adobe Dimension. This poster would advertise that the drinks could be enjoyed both hot or cold.</p>
                 </section>
-                <a href="#" class="btn">More Projects</a>
+                <a href="<?php echo get_public_url("pages/design.php"); ?>" class="btn more-proj">More Projects</a>
             </main>
             <?php require('../partials/global/footer.php'); ?> 
         </div>

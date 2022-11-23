@@ -118,7 +118,7 @@
                         <figcaption>The updated landing page design</figcaption>
                     </figure>
                 </section>
-                <a href="#" class="btn">More Projects</a>
+                <a href="<?php echo get_public_url("pages/design.php"); ?>" class="btn more-proj">More Projects</a>
             </main>
             <?php require('../partials/global/footer.php'); ?> 
         </div>
