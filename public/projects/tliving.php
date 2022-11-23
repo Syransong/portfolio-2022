@@ -70,7 +70,7 @@
                     <h2 class="col">Brainstorming the Brand Concept</h2>
                     <p class="col col-10">With the prompt “Small is Beautiful”, I wanted to create a magazine that focuses on how to live “tiny”. Specifically, the tiny house movement and lifestyle. Overall, the main purpose would be to promote this movement by providing advice, tips and guides. It would also encourage people to reflect on their current lifestyle and environmental impact.</p>
                 </section>
-                <section class="grid">
+                <section class="grid align-items-center">
                     <div class="col col-6">
                         <h2>Logo Design</h2>
                         <p>For the logo, I wanted to create a simple logo that represented a tiny house. To do this, I used lines to create a roof and base to imply the shape of a house. The base would include two wheels to represent how many tiny houses are built to be mobile. The window of the tiny house would include a leaf to represent how tiny living is eco-friendly.</p>

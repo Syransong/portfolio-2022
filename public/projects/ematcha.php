@@ -70,23 +70,38 @@
                     </ul>
                 </section>
                 <section class="grid">
-                    <h2 class="col">Client Brief </h2>
-                    <p class="col col-10">To simulate a real-life client scenario, we randomly received a fellow student's idea for a company. They would serve as our on-going client where we could receive feedback and suggestions. I received the following guidelines:</p>
-                    <ul class="col col-10 bul-list">
-                        <li>Company Name: Emerald Matcha</li>
-                        <li>Product: Matcha Powder</li>
-                        <li>Main Colour: #00A651</li>
-                        <li>Customer Demographic: 25-45 year olds</li>
-                        <li>Competitors: Jade Leaf Matcha, Grace & Green Matcha</li>
-                    </ul>
+                    <div class="col col-10">
+                        <h2 class="">Client Brief </h2>
+                        <p class="">To simulate a real-life client scenario, we randomly received a fellow student's idea for a company. They would serve as our on-going client where we could receive feedback and suggestions. I received the following guidelines:</p>
+                        <ul class="bul-list">
+                            <li>Company Name: Emerald Matcha</li>
+                            <li>Product: Matcha Powder</li>
+                            <li>Main Colour: #00A651</li>
+                            <li>Customer Demographic: 25-45 year olds</li>
+                            <li>Competitors: Jade Leaf Matcha, Grace & Green Matcha</li>
+                        </ul>
+                    </div>
                 </section>
-                <section>
-                    <h2>Logo Design</h2>
-                    <p>For the logo design, I wanted to draw inspiration from the company name by incorporating a matcha leaf and the shape of a gemstone. I also wanted to create a simple and clean logo to appeal to the younger customer demographic. After consulting with my client, I decided the final logo would be a matcha leaf in-laid in a tear-drop shaped gem.</p>
+                <section class="grid align-items-center">
+                    <figure class="col col-4">
+                        <img src="<?php echo get_public_url("images/ematcha-logo-sketches.jpg") ?>" alt="Thumbnails of the Emerald Matcha logo">
+                    </figure>
+                    <div class="col col-6">
+                        <h2>Logo Design</h2>
+                        <p >For the logo design, I wanted to draw inspiration from the company name by incorporating a matcha leaf and the shape of a gemstone. I also wanted to create a simple and clean logo to appeal to the younger customer demographic. After consulting with my client, I decided the final logo would be a matcha leaf in-laid in a tear-drop shaped gem.</p>
+                    </div>
                 </section>
-                <section>
-                    <h2>Colour Palette</h2>
-                    <p>To go with the deep green colour given by the client, I decided to go with a Split Complementary colour scheme of green, pink and yellow. This colour scheme gives a retro trendy vibe, which encapsulates the idea of targeting a younger audience with a traditional matcha product. Pink and yellow would serve as visually-striking colours in comparison with the primary green colour.</p>
+                <section class="grid align-items-center">
+                    <div class="col col-6">
+                        <h2>Colour Palette</h2>
+                        <p>To go with the deep green colour given by the client, I decided to go with a Split Complementary colour scheme of green, pink and yellow. This colour scheme gives a retro trendy vibe, which encapsulates the idea of targeting a younger audience with a traditional matcha product. Pink and yellow would serve as visually-striking colours in comparison with the primary green colour.</p>
+                    </div>
+                    <div class="colour-palette d-flex">
+                        <span class="dot emerald"></span>
+                        <span class="dot green"></span>
+                        <span class="dot pink"></span>
+                        <span class="dot yellow"></span>
+                    </div>
                 </section>
                 <section>
                     <h2>Product Dimensions and Design</h2>

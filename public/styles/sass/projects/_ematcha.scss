@@ -7,3 +7,30 @@
     height: auto;
     max-width: 453px;
 }
+
+.colour-palette {
+    gap: 2rem;
+    grid-column: 8 / 12;
+}
+.colour-palette .dot {
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.emerald {
+    background-color: #00A651;
+}
+
+.green {
+    background-color: #D8EBD0;
+}
+
+.yellow {
+    background-color: #f9a11b;
+}
+
+.pink {
+    background-color: #D6AAC6;
+}
