@@ -89,7 +89,20 @@
                 </section>
                 <section>
                     <h2>Product Dimensions and Design</h2>
-                    <p></p>
+                    <p>In order to determine the dimensions of the product, I researched how different high-end matcha brands packaged their product. One recurring format was packaging their matcha powder in tins of 3. After getting input from my client, I decided to go with a box with the following measurements: 10 inches by 4 inches by 4 inches.</p>
+                    <p>With the dimensions determined, I created the desings in Adobe Photoshop. I used the deep green, yellow and pink colours to make certain elements pop out in comparison with the rest of the box. For instance, these colours were used to highlight the 3 different blends of matcha in the box.</p>
+                </section>
+                <section>
+                    <h2>3D Render</h2>
+                    <p>The assets were then brought into Adobe After Effects to create a realistic 3D render of the product. Two light sources were added to create depth and realism to the render. The image was then brought into Adobe Photoshop to add a complementary tagline.</p>
+                </section>
+                <section>
+                    <h2>Stationery Brainstorming</h2>
+                    <p>For the stationery set, a business card, letterhead and envelope would be created. I wanted to take elements from the packaging and incorporate some elements in the stationery. To generate ideas, a moodboard and 6 thumbnails were made for each stationery item. The thumbnail that most closely matched the theme of the packaging was chosen to create more detailed roughs. </p>
+                </section>
+                <section>
+                    <h2>Final Stationery Design</h2>
+                    <p>After selecting a design from the roughs generated, the final designs were created using Adobe InDesign. Elements from the product packaging design, such as the repeating pattern of the logo, were used to maintain a consistent theme. The designs were then taken into Adobe Dimension to create a 3D mockup. As a result, this created a strong brand identity for Emerlad Matcha.</p>
                 </section>
                 <a href="#" class="btn">More Projects</a>
             </main>
