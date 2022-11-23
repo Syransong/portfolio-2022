@@ -8,11 +8,11 @@
         <div>
         <?php require(get_project_path('public/partials/global/header.php')); ?>
             <main class="linmon">
-                <section class="project-bnr m-top grid">
+                <section class="project-bnr m-top grid align-items-center">
                     <div class="proj-bnr-info">
                         <ul class="d-flex">
-                            <li>Packaging |</li>
-                            <li>Logo |</li>
+                            <li>Packaging</li>
+                            <li>Logo</li>
                             <li>Brand Identity</li>
                         </ul>
                         <h1>Linmon</h1>
@@ -64,27 +64,52 @@
                     </ul>
                 </section>
                 <section class="grid">
-                    <h2 class="col">Brainstorming the Brand</h2>
-                    <p class="col col-10">When we were first introduced to this project, I immediately knew that I wanted to do a lemon-based drink. I research well-known brands that produce lemon-based drinks, such as Nestea, Vitasoy and C.C. Lemon. The brand name would be called "Linmon", which is the combination of the Chinese word 林, which means forest, and the word, "lemon". </p>
-                    <p>I decided that my fictional brand would promote the health benefits of lemons and emphasize their user of simple, high-quality and unique ingredients. As a result, the target audience would be young people aged 20-35 years old who are health-conscious and enjoy tea.</p>
+                    <div class="col col-10">
+                        <h2 class="">Brainstorming the Brand</h2>
+                        <p class="">When we were first introduced to this project, I immediately knew that I wanted to do a lemon-based drink. I research well-known brands that produce lemon-based drinks, such as Nestea, Vitasoy and C.C. Lemon. The brand name would be called "Linmon", which is the combination of the Chinese word 林, which means forest, and the word, "lemon". </p>
+                        <p>I decided that my fictional brand would promote the health benefits of lemons and emphasize their user of simple, high-quality and unique ingredients. As a result, the target audience would be young people aged 20-35 years old who are health-conscious and enjoy tea.</p>
+                    </div>
+                </section>
+                <section class="grid align-items-center">
+                    <div class="col col-6">
+                        <h2>Colour Palette and Logo Concept</h2>
+                        <p>With the brand identity solidified, I had a clear idea of what I wanted to convey through the logo and colour palette. The main colours are yellow and green, which convey a healthy, fresh and bright feeling. </p>
+                        <p>For the logo, I sketches an array of thumbnails to brainstorm Ideas. I chose to go with a tree where the leaves of the tree create the shape of a lemon. I also incorporated the Chinese word 木, which means wood, as the shap of the trunk and branches.</p>
+                    </div>
+                    <figure class="col col-6">
+                        <img src="<?php echo get_public_url("images/linmon-thumbs.png") ?>" alt="Thumbnails of the Linmon Logo">
+                        <figcaption>Thumbnails of the Linmon Logo</figcaption>
+                    </figure>
+                </section>
+                <section class="grid align-items-center">
+                    <div class="col col-7">
+                        <h2>Packaging Design and 3D Render</h2>
+                        <p>I decided to go with a juicebox container and a glass container for Linmon's beverages. I was able to make these 3D shapes using Adobe Illustrator's 3D tools such as extrude and revolve. After creating the bottle shapes, I created the packaging designs also in Illustrator.</p>
+                    </div>
+                    <figure class="col col-5">
+                        <img src="<?php echo get_public_url("images/linmon-3d-containers.png") ?>" alt="3D render of the juicebox and glass bottle containers">
+                        <figcaption>3D render of the juicebox and glass bottle containers</figcaption>
+                    </figure>
+                </section>
+                <section class="grid align-items-center">
+                    <figure class="col col-6">
+                        <img src="<?php echo get_public_url("images/linmon-ai-poster.jpg") ?>" alt="Linmon Poster">
+                        <figcaption>Linmon Advertisement Poster made using Illustrator</figcaption>
+                    </figure>
+                    <div class="col col-5">
+                        <h2>Final Poster using Illustrator</h2>
+                        <p>For the poster, the specifications were to depict a scene in which the drink would be sold or experienced and include a perspective grid. I decided to show that by drinking Linmon lemon tea, you would be escaping the city and returning to nature. I did this by creating a faraway cityscape in the background. The drinks were placed in the center of the poster on a welcoming gingham tablecloth and surrounded by trees.</p>
+                    </div>
                 </section>
                 <section class="grid">
-                    <h2>Colour Palette and Logo Concept</h2>
-                    <p>With the brand identity solidified, I had a clear idea of what I wanted to convey through the logo and colour palette. The main colours are yellow and green, which convey a healthy, fresh and bright feeling. </p>
-                    <p>For the logo, I sketches an array of thumbnails to brainstorm Ideas. I chose to go with a tree where the leaves of the tree create the shape of a lemon. I also incorporated the Chinese word 木, which means wood, as the shap of the trunk and branches.</p>
-                </section>
-                <section>
-                    <h2>Packaging Design and 3D Render</h2>
-                    <p>I decided to go with a juicebox container and a glass container for Linmon's beverages. I was able to make these 3D shapes using Adobe Illustrator's 3D tools such as extrude and revolve. After creating the bottle shapes, I created the packaging designs also in Illustrator.</p>
-                </section>
-                <section>
-                    <h2>Final Poster using Illustrator</h2>
-                    <p>For the poster, the specifications were to depict a scene in which the drink would be sold or experienced and include a perspective grid. I decided to show that by drinking Linmon lemon tea, you would be escaping the city and returning to nature. I did this by creating a faraway cityscape in the background. The drinks were placed in the center of the poster on a welcoming gingham tablecloth and surrounded by trees.</p>
-                    <img src="" alt="">
-                </section>
-                <section>
-                    <h2>Poster using Adobe Dimension</h2>
-                    <p>The same packaging assets were used to create a more realistic marketing poster using Adobe Dimension. This poster would advertise that the drinks could be enjoyed both hot or cold.</p>
+                    <div class="col col-10">
+                        <h2>Poster using Adobe Dimension</h2>
+                        <p>The same packaging assets were used to create a more realistic marketing poster using Adobe Dimension. This poster would advertise that the drinks could be enjoyed both hot or cold.</p>
+                    </div>
+                    <figure class="col">
+                        <img src="<?php echo get_public_url("images/linmon-dimension-poster.jpg") ?>" alt="Linmon Poster">
+                        <figcaption>Linmon Advertisement Poster made using Illustrator</figcaption>
+                    </figure>
                 </section>
                 <a href="<?php echo get_public_url("pages/design.php"); ?>" class="btn more-proj">More Projects</a>
             </main>
