@@ -67,7 +67,7 @@
                     <h2 class="col"></h2>
                     <p class="col col-10"></p>
                 </section>
-                <a href="<?php echo get_public_url("pages/design.php"); ?>" class="btn more-proj">More Projects</a>
+                <a href="<?php echo get_public_url("pages/dev.php"); ?>" class="btn more-proj">More Projects</a>
             </main>
             <?php require('../partials/global/footer.php'); ?> 
         </div>
