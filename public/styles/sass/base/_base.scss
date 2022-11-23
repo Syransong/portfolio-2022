@@ -1,4 +1,15 @@
 // base text, imag estyles, visual styles, font size, 
+@use "../config"; 
+
 section {
     padding: 4rem;
+}
+
+.bul-list li::before {
+    content: "\2022";
+    color: config.$turquoise;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1.5em;
+    // margin-left: -1em;
 }

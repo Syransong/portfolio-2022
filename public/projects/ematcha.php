@@ -72,7 +72,7 @@
                 <section class="grid">
                     <h2 class="col">Client Brief </h2>
                     <p class="col col-10">To simulate a real-life client scenario, we randomly received a fellow student's idea for a company. They would serve as our on-going client where we could receive feedback and suggestions. I received the following guidelines:</p>
-                    <ul>
+                    <ul class="col col-10 bul-list">
                         <li>Company Name: Emerald Matcha</li>
                         <li>Product: Matcha Powder</li>
                         <li>Main Colour: #00A651</li>
