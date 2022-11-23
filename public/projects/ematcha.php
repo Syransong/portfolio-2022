@@ -8,18 +8,19 @@
         <div>
         <?php require(get_project_path('public/partials/global/header.php')); ?>
             <main class="ematcha">
-                <section class="project-bnr m-top grid">
+                <section class="project-bnr m-top grid align-items-center">
                     <div class="proj-bnr-info">
                         <ul class="d-flex">
-                            <li>Print |</li>
-                            <li>Packaging |</li>
-                            <li>Logo |</li>
+                            <li>Print</li>
+                            <li>Packaging</li>
+                            <li>Logo</li>
                             <li>Brand Identity</li>
                         </ul>
                         <h1>Emerald Matcha</h1>
-                        <p></p>
-                        <p></p>
+                        <p>Emerald Matcha is a fictional matcha company that produces high-end matcha products.</p>
+                        <p>The goal of this project was to present a consistent brand identity through the creation of a logo, product packaging and a stationery set.</p>
                     </div>
+                    <img src="<?php echo get_public_url("/images/ematcha_logo.jpg") ?>" alt="Emerald Matcha Logo" class="ematcha-logo">
                 </section>
                 <section class="project-info">
                     <ul class="d-flex">
