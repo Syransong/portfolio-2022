@@ -4,7 +4,7 @@
         <ul class="d-flex">
             <?php 
                 foreach ($project->tags as $tag) {
-                    echo '<li>' . $tag . '|' . '</li>';
+                    echo '<li>' . $tag . '</li>';
                 }
             ?> 
         </ul>

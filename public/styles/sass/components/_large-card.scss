@@ -1,7 +1,7 @@
 @use "../config";
 
 .large-card {
-    padding: 100px;
+    padding: 3rem;
     gap: 20px;
     align-items: center;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
@@ -11,6 +11,10 @@
 
 .large-card h1 {
    font-size: 32px;
+}
+
+.large-card li {
+    gap: 1rem;
 }
 
 .large-card p {
