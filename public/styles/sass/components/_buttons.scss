@@ -16,12 +16,24 @@ Button
 .btn {
     font-family: config.$primary-fonts;
     text-decoration: none;
+    font-weight: 500;
     background-color: config.$turquoise;
+    border: 0.2rem solid config.$turquoise;
     padding: 15px 20px;
     color: config.$white;
     border-radius: 15px;
     display: block;
     text-align: center;
     width: 200px;
+    cursor: pointer;
     max-width: 200px;
+    transition: .2s;
+}
+
+@media (min-width: 1000px) {
+    .btn:hover {
+        background-color: white;
+        color: config.$turquoise;
+        
+    }
 }
