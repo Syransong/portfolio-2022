@@ -1,13 +1,16 @@
 <?php
     require('../app/init.php');
-    // require('../app/data/projects.php');
 ?>
 <!DOCTYPE html>
 <html lang="en">
     <?php require(get_project_path('public/partials/global/head.php')); ?>
     <body>
         <div>
-            <?php require(get_project_path('public/partials/global/header.php')); ?>
+            <?php 
+                $meta_title = "Home - Full-stack Developer | Graphic Designer | Karina Song";
+
+                require(get_project_path('public/partials/global/header.php')); 
+            ?>
             <main class="page-content">
                 <section class="bnr grid m-top">
                     <div class="bnr-info">
