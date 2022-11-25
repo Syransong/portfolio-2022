@@ -1,6 +1,8 @@
 <?php 
     // Constants 
     define('WWW_ROOT', 'http://localhost');
+    // define('WWW_ROOT', 'https://karinasong.com');
+    
     // The PROJECT_ROOT constant variable's value contains the function, dirname() which retrieves the path of the parent directory of "__FILE__" which is the name of the current file, "init.php". 
     define('PROJECT_ROOT', dirname(__DIR__, 1));
 
