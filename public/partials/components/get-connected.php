@@ -1,9 +1,9 @@
-<section class="connect d-flex">
-    <img src="<?php echo get_public_url('/images/circles.svg'); ?>" class="" alt="Graphic of 3 different coloured circles">
-    <div class="contact-info d-flex">
-        <h2>Let's get connected!</h2>
-        <p>Interested in working together? Contact me and we can set something up!</p>
-        <ul class="d-flex soc-med">
+<section class="connect grid">
+    <img src="<?php echo get_public_url('/images/circles.svg'); ?>" class="col-12 circles" alt="Graphic of 3 different coloured circles">
+    <div class="contact-info grid col-12">
+        <h2 class="col-12">Let's get connected!</h2>
+        <p class="col-12">Interested in working together? Contact me and we can set something up!</p>
+        <ul class="d-flex soc-med col-12">
             <li>
                 <a href="mailto:ksysong@gmail.com" title="Email me">
                     <img src="<?php echo get_public_url('/images/email-icon.svg'); ?>" alt="Email Icon" class="black">

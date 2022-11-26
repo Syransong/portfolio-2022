@@ -5,17 +5,28 @@ Get Connected
 ----------------------------------*/
 .connect {
     background-color: config.$light-yellow;
-    align-items: center;
-    justify-content: space-around;
+    // align-items: center;
+    // justify-content: space-around;
     // padding: 100px;
+    text-align: center;
 }
 
-.contact-info {
-    flex-direction: column;
-    gap: 20px;
+.connect .circles {
+    width: 55%;
+    margin: 0 auto;
 }
+.contact-info {
+    // flex-direction: column;
+    // gap: 20px;
+}
+
+.contact-info p {
+    font-size: 1.2rem;
+}
+
 .soc-med {
-    gap: 20px;
+    gap: 1rem;
+    justify-content: space-evenly;
 }
 .soc-med .black {
     filter: invert(1);
