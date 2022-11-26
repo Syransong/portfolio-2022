@@ -4,14 +4,14 @@
 Design Filter
 ----------------------------------*/
 
-.design-filter {
+.filter {
     text-align: center;
 }
 
-.design-filter h1 {
+.filter h1 {
     margin: 0px;
 }
-.design-filter ul {
+.filter ul {
     margin: 0 auto;
     justify-content: space-evenly;
     width: 50%;
@@ -19,12 +19,12 @@ Design Filter
     visibility: hidden;
 }
 
-.design-filter ul a {
+.filter ul a {
     text-decoration: none;
     color: config.$grey;
 }
 
-.design-filter ul .selected{
+.filter ul .selected{
     color: white;
     padding: 7px 15px;
     background-color: config.$turquoise;
@@ -34,4 +34,9 @@ Design Filter
 .project-list .btn {
     margin: 0 auto;
     visibility: hidden;
+}
+
+.project-list {
+    flex-direction: column;
+    gap: 2rem;
 }

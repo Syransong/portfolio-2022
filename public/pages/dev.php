@@ -8,7 +8,7 @@
         <div>
             <?php include(get_project_path('public/partials/global/header.php')); ?> 
             <main class="page-content">
-                <section class="design-filter m-top">
+                <section class="filter m-top">
                         <h1>Development Work</h1>
                         <ul class="d-flex">
                             <li><a class="selected" href="#">All Projects</a></li>

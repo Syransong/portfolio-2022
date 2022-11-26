@@ -1,5 +1,6 @@
 @use "../config";
 
+
 .large-card {
     padding: 3rem;
     gap: 2rem;
@@ -7,6 +8,9 @@
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
     margin-bottom: 3rem;
     border-radius: 2rem;
+    flex-direction: column;
+    max-width: 533px;
+    margin: 0 auto;
 }
 
 .large-card h1 {
@@ -26,35 +30,21 @@
     font-family: config.$primary-fonts;
     font-weight: 500;
 }
-// .large-card {
-//     grid-template-rows: repeat(4, minmax(50px 100px));
-// }
 
-// .large-card img {
-//     grid-column: 2 / 7;
-//     grid-row: 1 / 5;
-//     width: 100%;
-//     height: auto;
-// }
+.large-card img {
+    width: 100%;
+    max-width: 437px;
+}
 
-// .large-card h1 {
-//     grid-column: 7 / 12;
-//     grid-row: 2 / 3;
-// }
+@media screen and (min-width: 1024px) {
+    .large-card {
+        flex-direction: row;
+        max-width: 1000px;
+    }
+}
 
-// .large-card ul {
-//     grid-column: 7 / 12;
-//     grid-row: 1 / 2;
-// }
-
-// .large-card p {
-//     grid-column: 7 / 12;
-//     grid-row: 3 / 4;
-// }
-
-// .large-card a {
-//     grid-column: 7 / 12;
-//     grid-row: 4 / 5;
-// }
-
-
+@media screen and (min-width: 1400px) {
+    .large-card img {
+        width: 80%;
+    }
+}

@@ -8,7 +8,7 @@
         <div>
             <?php include(get_project_path('public/partials/global/header.php')); ?> 
             <main class="page-content">
-                <section class="design-filter m-top">
+                <section class="filter m-top">
                         <h1>Design Work</h1>
                         <ul class="d-flex">
                             <li><a class="selected" href="#">All Projects</a></li>
@@ -19,7 +19,7 @@
                             <li><a href="#">Print</a></li>
                         </ul>
                 </section>
-                <section class="project-list">
+                <section class="project-list d-flex">
                     <?php foreach($design_projects as $project): ?>
                         <?php include(get_project_path('public/partials/projects/large-card.php')); ?>
                     <?php endforeach; ?>
