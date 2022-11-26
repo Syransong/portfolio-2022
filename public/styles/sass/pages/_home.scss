@@ -12,6 +12,7 @@ Banner
 
 .bnr img {
     width: 100%;
+    margin: 0 auto;
 }
 /*----------------------------------
 Skills
@@ -59,4 +60,13 @@ latest work
 
 .latest-work .btn {
     margin: 2rem auto;
+}
+
+/*----------------------------------
+Media Queries
+----------------------------------*/
+@media screen and (min-width: 576px) {
+    .bnr img {
+        width: 80%;
+    }
 }

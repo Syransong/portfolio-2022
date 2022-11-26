@@ -3,12 +3,13 @@
 ?>
 <!DOCTYPE html>
 <html lang="en">
-    <?php require(get_project_path('public/partials/global/head.php')); ?>
+    <?php 
+         $meta_title = "Home - Full-stack Developer | Graphic Designer | Karina Song";
+         
+         require(get_project_path('public/partials/global/head.php')); ?>
     <body>
         <div>
             <?php 
-                $meta_title = "Home - Full-stack Developer | Graphic Designer | Karina Song";
-
                 require(get_project_path('public/partials/global/header.php')); 
             ?>
             <main class="page-content">
