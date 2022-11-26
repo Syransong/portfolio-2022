@@ -25,56 +25,55 @@ Grid
     gap: 2rem;
 }
 
-.col {
-    grid-column: auto / span 12; 
+// .col {
+//     grid-column: auto / span 12; 
+// }
+
+.col-1 {
+    grid-column: span 1;
 }
 
-.col.col-1 {
-    grid-column: auto / span 1;
+.col-2 {
+    grid-column: span 2;
 }
 
-.col.col-2 {
-    grid-column: auto / span 2;
+.col-3 {
+    grid-column: span 3;
+}
+.col-4 {
+    grid-column: span 4;
 }
 
-.col.col-3 {
-    grid-column: auto / span 3;
+.col-5 {
+    grid-column: span 5;
 }
 
-.col.col-4 {
-    grid-column: auto / span 4;
+.col-6 {
+    grid-column: span 6;
 }
 
-.col.col-5 {
-    grid-column: auto / span 5;
+.col-7 {
+    grid-column: span 7;
 }
 
-.col.col-6 {
-    grid-column: auto / span 6;
+.col-8 {
+    grid-column: span 8;
 }
 
-.col.col-7 {
-    grid-column: auto / span 7;
+.col-9 {
+    grid-column: span 9;
 }
 
-.col.col-8 {
-    grid-column: auto / span 8;
+.col-10 {
+    grid-column: span 10;
 }
 
-.col.col-9 {
-    grid-column: auto / span 9;
+.col-11 {
+    grid-column: span 11;
 }
 
-.col.col-10 {
-    grid-column: auto / span 10;
-}
-
-.col.col-11 {
-    grid-column: auto / span 11;
-}
-
-.col.col-12 {
-    grid-column: auto / span 12;
+.col-12 {
+    grid-column: span 12;
 }
 
 
