@@ -8,12 +8,15 @@ Design Filter
     text-align: center;
 }
 
+.design-filter h1 {
+    margin: 0px;
+}
 .design-filter ul {
     margin: 0 auto;
     justify-content: space-evenly;
     width: 50%;
     align-items: center;
-
+    visibility: hidden;
 }
 
 .design-filter ul a {
@@ -30,4 +33,5 @@ Design Filter
 
 .project-list .btn {
     margin: 0 auto;
+    visibility: hidden;
 }
