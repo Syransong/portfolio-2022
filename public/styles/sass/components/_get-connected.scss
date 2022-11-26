@@ -21,7 +21,7 @@ Get Connected
 }
 
 .contact-info p {
-    font-size: 1.2rem;
+    // font-size: 1.2rem;
 }
 
 .soc-med {
@@ -53,5 +53,11 @@ Media Queries
     .soc-med {
         gap: 1rem;
         justify-content: start;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .connect .circles {
+        width: 50%;
     }
 }
