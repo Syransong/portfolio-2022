@@ -24,4 +24,11 @@ footer ul {
 
 footer p {
     color: white;
+    margin: 0px;
+}
+
+@media screen and (min-width: 1024px) {
+    footer {
+        flex-direction: row;
+    }
 }
