@@ -1,6 +1,6 @@
 <section class="connect grid">
-    <img src="<?php echo get_public_url('/images/circles.svg'); ?>" class="col-12 circles" alt="Graphic of 3 different coloured circles">
-    <div class="contact-info grid col-12">
+    <img src="<?php echo get_public_url('/images/circles.svg'); ?>" class="circles col-12 col-4-md" alt="Graphic of 3 different coloured circles">
+    <div class="contact-info grid col-12 col-8-md">
         <h2 class="col-12">Let's get connected!</h2>
         <p class="col-12">Interested in working together? Contact me and we can set something up!</p>
         <ul class="d-flex soc-med col-12">

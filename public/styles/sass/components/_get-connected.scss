@@ -25,9 +25,33 @@ Get Connected
 }
 
 .soc-med {
-    gap: 1rem;
+    // gap: 1rem;
     justify-content: space-evenly;
 }
 .soc-med .black {
     filter: invert(1);
+}
+
+/*----------------------------------
+Media Queries
+----------------------------------*/
+
+@media screen and (min-width: 768px) {
+    .connect {
+        text-align: left;
+        align-items: center;
+    }
+
+    .connect .circles {
+        width: 100%;
+    }
+
+   .contact-info {
+        gap: 0.5rem;
+    }
+
+    .soc-med {
+        gap: 1rem;
+        justify-content: start;
+    }
 }

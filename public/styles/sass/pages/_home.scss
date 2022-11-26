@@ -32,6 +32,13 @@ Skills
     border-radius: 20px;
 }
 
+.skills p {
+    margin-bottom: 0px;
+}
+
+.skills img {
+    margin-bottom: 2rem;
+}
 
 /*----------------------------------
 latest work
@@ -68,5 +75,47 @@ Media Queries
 @media screen and (min-width: 576px) {
     .bnr img {
         width: 80%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .bnr img {
+        width: 55%;
+    }
+
+    .bnr-info {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .skills h3 {
+        font-size: 1.4rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .bnr {
+        align-items: center;
+    }
+    .bnr-info {
+        width: 100%;
+        text-align: left;
+        // margin: 0 auto;
+    }
+
+    .bnr img {
+        width: 100%;
+    }
+
+    .bnr-info .btn{
+       margin: 2rem 0px 0px 0px;
+    }
+
+    .skills h3 {
+        font-size: 1.2rem;
+    }
+
+    .skills img {
+        width: 50%;
     }
 }
