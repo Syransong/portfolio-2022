@@ -119,3 +119,9 @@ Media Queries
         width: 50%;
     }
 }
+
+@media screen and (min-width: 1400px) {
+    .bnr img {
+        width: 80%;
+    }
+}
