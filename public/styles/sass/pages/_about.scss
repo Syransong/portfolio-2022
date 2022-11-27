@@ -89,3 +89,9 @@ Media Queries
         width: 50%;
    }
 }
+
+@media screen and (min-width: 1200px) {
+    .hobbies img {
+        width: 40%;
+    }
+}

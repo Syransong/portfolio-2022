@@ -97,6 +97,16 @@ Media Queries
     .bnr {
         align-items: center;
     }
+
+    .bnr h1 {
+        font-size: 5rem;
+        line-height: 1.2rem;
+    }
+
+    .bnr p {
+        width: 80%;
+    }
+
     .bnr-info {
         width: 100%;
         text-align: left;
