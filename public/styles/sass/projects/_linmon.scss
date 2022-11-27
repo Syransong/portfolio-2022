@@ -1,6 +1,26 @@
 .juicebox {
-    grid-column: 7 / 12;
     max-height: 550px;
-    width: auto;
+    width: 70%;
+    height: auto;
     filter: drop-shadow(11px 7px 20px rgba(107, 107, 107, 0.57));
+    margin: 0 auto;
+    object-fit: contain;
+}
+
+.linmon-ai-poster {
+    order: 2;
+}
+
+@media screen and (min-width: 1024px) {
+    .linmon-ai-poster {
+        order: -2;
+        max-width: 450px;
+    }
+
+    .juicebox {
+        width: 100%;
+    }
+    .linmon-dm-poster {
+        max-width: 1000px;
+    }
 }
