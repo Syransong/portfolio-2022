@@ -2,15 +2,17 @@
 
 .ematcha-logo {
     mix-blend-mode: multiply;
-    grid-column: 7 / 12;
+    // grid-column: 7 / 12;
     width: 100%;
     height: auto;
     max-width: 453px;
+    margin: 0 auto;
 }
 
 .colour-palette {
     gap: 2rem;
-    grid-column: 8 / 12;
+    justify-content: space-evenly;
+    // grid-column: 8 / 12;
 }
 .colour-palette .dot {
     height: 4rem;
@@ -33,4 +35,25 @@
 
 .pink {
     background-color: #D6AAC6;
+}
+
+.ematcha-thumbnails {
+    max-width: 450px;
+    margin: 0 auto;
+    order: 2;
+}
+
+@media screen and (min-width: 768px) {
+    .ematcha-logo {
+        width: 50%;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .ematcha-logo {
+        width: 80%;
+    }
+
+    .ematcha-thumbnails {
+        order: -1;
+    }
 }
