@@ -2,11 +2,40 @@
 
 // Project Banner
 .project-bnr .rapidish-mobile {
-    grid-column: 8 / 12;
+    // grid-column: 8 / 12;
     max-height: 550px;
+    margin: 0 auto;
     filter: drop-shadow(6px 10px 8px rgba(50, 50, 93, 0.25))
 }
 
+.rapidish-fig-mock {
+    order: 2;
+}
 .live-link {
     margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+    .rapidish-fig-mock {
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .rapidish-fig-mock {
+        order: -1;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .rapidish-fig-mock {
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .rapidish-all-mocks {
+        width: 80%;
+    }
 }
