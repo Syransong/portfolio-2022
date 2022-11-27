@@ -1,21 +1,48 @@
-// img {
-//     width: 100%;
-// }
+@use "../config";
 
-.proj-preview-img {
-    grid-column: 7 / 12;
-    max-height: 550px;
+.tliving-preview-img {
     height: auto;
-    width: 100%;
+    width: 80%;
     object-fit: cover;
-    object-position: top;
-    position: absolute;
-    bottom: 0;
+    margin: 0 auto;
     top: 20%;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 
+.tliving-final-poster {
+    order: 2;
+}
+
+.tliving-og-landing {
+    order: 2
+}
+
+.tliving-new-landing {
+    order: 3
+}
 
 .tliving .btn {
     margin: 5rem auto;
+}
+
+@media screen and (min-width: 768px) {
+    .tliving-preview-img {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .tliving-preview-img {
+        position: absolute;
+        width: 100%;
+        top: 20%;
+        grid-column: 7 / 12;
+    }
+
+    .tliving-final-poster {
+        order: -2;
+    }
+    .tliving-og-landing {
+        order: -2;
+    }
 }

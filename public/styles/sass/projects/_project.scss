@@ -79,6 +79,12 @@ figure img {
     color: config.$pink;
 }
 
-@media screen and (min-width: 1024px) {
-    
+@media screen and (min-width: 1400px) {
+    .proj-bnr-info {
+        grid-column: 2 / 6;
+    }
+
+    .project-bnr img {
+        grid-column: 7 / 12;
+    }
 }
