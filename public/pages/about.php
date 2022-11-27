@@ -9,15 +9,15 @@
             <?php require(get_project_path('public/partials/global/header.php')); ?>
             <main class="page-content">
                 <section class="about-intro m-top grid">
-                    <img src="<?php echo get_public_url('/images/ksong-pfp.svg')?>" alt="Picture of Karina Song looking up">
-                    <div class="about-info">
+                    <img src="<?php echo get_public_url('/images/ksong-pfp.svg')?>" class="col-12 col-6-lg" alt="Picture of Karina Song looking up">
+                    <div class="about-info col-12 col-6-lg">
                         <h1>About Me</h1>
-                        <p>Full-stack web developer and designer pivoting from Quality Assurance in the food industry. My love of the web development and design w  orld started with a UX course and ran from there. I loved getting wrapped up in everything from working through a bug to moving a pixel by one space.</p>
-                        <p>My goal is to pursue a career in Canada where I am able to leverage both my coding and design skills. I want to work in a position where I can bridge the gap between design and development. This can manifest as working either in UX design or front-end development. Later in my career, I would like to specialize in creating accessible designs. </p>
+                        <p>Full-stack web developer and designer pivoting from Quality Assurance in the food industry. My love of the web development and design world started with a UX course and ran from there. I loved getting wrapped up in everything from working through a bug to moving a pixel by one space.</p>
+                        <p>My goal is to pursue a career in Canada where I am able to bridge the gap between design and development. Later in my career, I would like to specialize in creating accessible designs. </p>
                     </div>
                 </section>
                 <section class="skillset grid">
-                    <div class="about-skills">
+                    <div class="about-skills col-12 col-6-lg">
                         <h2>Skills</h2>
                         <ul>
                             <li>
@@ -42,32 +42,32 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="education">
+                    <div class="education col-12 col-6-lg">
                         <h2>Education</h2>
                         <ul>
                             <li>
-                                <div class="institute">
+                                <div class="d-flex institute">
                                     <h3>BCIT</h3>
                                     <p>Currently Enrolled</p>
                                 </div>
                                 <p>New Media Design & Web Development Diploma</p>
                             </li>
                             <li>
-                                <div class="institute">
+                                <div class="d-flex institute">
                                     <h3>Lighthouse Labs</h3>
                                     <p>2021</p>
                                 </div>
                                 <p>Full Stack Web Development Diploma</p>
                             </li>
                             <li>
-                                <div class="institute">
+                                <div class="d-flex institute">
                                     <h3>Brainstation</h3>
                                     <p>2020</p>
                                 </div>
                                 <p>UX Design Certificate</p>
                             </li>
                             <li>
-                                <div class="institute">
+                                <div class="d-flex institute">
                                     <h3>University of British Columbia</h3>
                                     <p>2013 - 18</p>
                                 </div>
@@ -76,9 +76,9 @@
                         </ul>
                     </div>
                 </section>
-                <section class="hobbies d-flex">
-                    <img src="<?php echo get_public_url('/images/about-doll.svg')?>" alt="">
-                    <div class="hobby-info">
+                <section class="hobbies grid">
+                    <img src="<?php echo get_public_url('/images/about-doll.svg')?>" class="col-12 col-4-md col-6-lg" alt="Graphic of a turquoise arch with a golden star at the top and a pink semi-circle on the bottom">
+                    <div class="hobby-info col-12 col-8-md col-6-lg">
                         <h2>In my spare time, I would be...</h2>
                         <ul>
                             <li><p>listening to a new album</p></li>

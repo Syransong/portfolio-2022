@@ -13,21 +13,23 @@ About Intro
 // }
 
 .about-intro {
-    align-items: center;
+    // align-items: center;
 }
 .about-intro img {
-    grid-column: 1 / 7 ;
+    // grid-column: 1 / 7 ;
+    width: 100%;
+    margin: 0 auto;
 }
 .about-intro .about-info {
-    grid-column: 8 / 13;
+    // grid-column: 8 / 13;
 }
 
-.skillset .about-skills{
-    grid-column: auto / span 5;
-}
+/*----------------------------------
+Skillset
+----------------------------------*/
 
-.skillset .education {
-    grid-column: 8 / 13 ;
+.skillset {
+    background-color: config.$light-yellow;
 }
 
 .skillset h3 {
@@ -36,17 +38,21 @@ About Intro
 
 .about-skills li {
     margin-bottom: 1.4rem;
+    max-width: 750px;
 }
 
 .education .institute {
-    display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.2rem;
+    max-width: 750px;
 }
 
 .education .institute p {
     font-size: 1.4rem;
     font-family: config.$primary-fonts;
     font-weight: 500;
+    margin: 0;
 }
 
 .education  li {
@@ -60,4 +66,33 @@ About Intro
 
 .hobbies li {
     margin-bottom: 1.5rem;
+}
+
+.hobbies img {
+    margin: 0 auto;
+    width: 30%;
+}
+
+@media screen and (min-width: 768px) {
+    .hobbies {
+        align-items: center;
+    }
+    
+    .about-intro img {
+        width: 80%;
+    }
+
+    .hobbies img {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+   .about-intro {
+    align-items: center;
+   }
+
+   .hobbies img {
+        width: 50%;
+   }
 }
