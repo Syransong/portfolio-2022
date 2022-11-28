@@ -5,7 +5,7 @@
 <html lang="en">
     <?php 
         $meta_title = "Home - Full-stack Developer | Graphic Designer | Karina Song";
-        $meta_description = "Explore the design and coding work of Karina Song, a designer and developer based in Vancouver, Canada."
+        $meta_description = "Explore the design and coding work of Karina Song, a designer and developer based in Vancouver, Canada.";
         
         require(get_project_path('public/partials/global/head.php')); 
     ?>

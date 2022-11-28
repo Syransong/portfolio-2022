@@ -5,7 +5,7 @@
 <html lang="en">
     <?php 
         $meta_title = "Development Work - Developer | Graphic Designer | Karina Song";
-        $meta_description = "Explore the development work of Karina Song, which includes projects that involve front-end, back-end and full-stack development."
+        $meta_description = "Explore the development work of Karina Song, which includes projects that involve front-end, back-end and full-stack development.";
         
         require(get_project_path('public/partials/global/head.php')); 
     ?>

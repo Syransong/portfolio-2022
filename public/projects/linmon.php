@@ -3,7 +3,12 @@
 ?>
 <!DOCTYPE html>
 <html lang="en">
-    <?php require(get_project_path('public/partials/global/head.php')); ?>
+    <?php 
+        $meta_title = "Linmon - Graphic Design Project by Karina Song";
+        $meta_description = "Linmon is a fictional beverage company that produces lemon-based drinks. To create a strong brand identity, a logo, product packaging and posters were created.";
+        
+        require(get_project_path('public/partials/global/head.php')); 
+    ?>
     <body>
         <div>
         <?php require(get_project_path('public/partials/global/header.php')); ?>

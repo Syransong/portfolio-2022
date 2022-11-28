@@ -3,7 +3,12 @@
 ?>
 <!DOCTYPE html>
 <html lang="en">
-    <?php require(get_project_path('public/partials/global/head.php')); ?>
+    <?php 
+        $meta_title = "Rapidish - Web Development Project by Karina Song";
+        $meta_description = "Rapidish is a fictional meal delivery company. To demonstrate skills in mobile-first and responsive design, a landing page was created.";
+        
+        require(get_project_path('public/partials/global/head.php')); 
+    ?>
     <body>
         <div>
         <?php require(get_project_path('public/partials/global/header.php')); ?>

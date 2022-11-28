@@ -3,7 +3,12 @@
 ?>
 <!DOCTYPE html>
 <html lang="en">
-    <?php require(get_project_path('public/partials/global/head.php')); ?>
+    <?php 
+        $meta_title = "Emerald Matcha - Graphic Design Project by Karina Song";
+        $meta_description = "Emerald Matcha is a fictional matcha powder company. A consistent brand identity was presented by producing a logo, product packaging, and stationery set.";
+        
+        require(get_project_path('public/partials/global/head.php')); 
+    ?>
     <body>
         <div>
         <?php require(get_project_path('public/partials/global/header.php')); ?>
