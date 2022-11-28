@@ -3,7 +3,12 @@
 ?>
 <!DOCTYPE html>
 <html lang="en">
-    <?php include(get_project_path('public/partials/global/head.php'))?>
+    <?php 
+        $meta_title = "Design Work - Developer | Graphic Designer | Karina Song";
+        $meta_description = "Explore the design work of Karina Song, which includes user experience, user interface, logo, web, packaging and print design."
+        
+        require(get_project_path('public/partials/global/head.php')); 
+    ?>
     <body>
         <div>
             <?php include(get_project_path('public/partials/global/header.php')); ?> 

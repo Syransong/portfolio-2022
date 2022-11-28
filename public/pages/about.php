@@ -3,7 +3,12 @@
 ?>
 <!DOCTYPE html>
 <html lang="en">
-    <?php require(get_project_path('public/partials/global/head.php')); ?>
+    <?php 
+        $meta_title = "About - Full-stack Developer | Graphic Designer | Karina Song";
+        $meta_description = "Read about the history, skills and education background of Karina Song, a design and developer based in Vancouver Canada."
+        
+        require(get_project_path('public/partials/global/head.php')); 
+    ?>
     <body>
         <div>
             <?php require(get_project_path('public/partials/global/header.php')); ?>
