@@ -96,7 +96,7 @@
                 <section class="grid align-items-center">
                     <figure class="tliving-final-poster col-12 col-6-lg">
                         <img src="<?php echo get_public_url("images/tliving-mag-cover.png")?>" class="box-shadow" alt="Final Version of the Tiny Living Cover">
-                        <figcaption>The Tiny Living Magazine Cover</figcaption>
+                        <figcaption>The Tiny Living magazine cover</figcaption>
                     </figure>
                     <div class="col-12 col-6-lg">
                         <h2>Magazine Cover Design</h2>
@@ -110,13 +110,13 @@
                     </div>
                     <figure class="col-12 col-6-lg">
                         <img src="<?php echo get_public_url('images/tliving-banner.jpg')?>" class="box-shadow" alt="Banner ad for Tiny Living where a woman looks out the window of her tiny house towards a snowy forest">
-                        <figcaption>Banner Ad for Tiny Living</figcaption>
+                        <figcaption>Banner ad for Tiny Living</figcaption>
                     </figure>
                 </section>
                 <section class="grid align-items-center">
                     <figure class="tliving-og-landing col-12 col-6-lg">
                         <img src="<?php echo get_public_url('images/tliving-og-landing.jpg')?>" class="box-shadow" alt="Original Landing Page design for Tiny Living">
-                        <figcaption>The original landing page</figcaption>
+                        <figcaption>The original landing page made using InDesign</figcaption>
                     </figure>
                     <div class="col-12 col-6-lg">
                         <h2>Landing Page Design</h2>
@@ -124,7 +124,7 @@
                     </div>
                     <figure class="tliving-new-landing col-12">
                         <img src="<?php echo get_public_url('images/tliving-new-landing.jpg')?>" class="box-shadow" alt="Screenshots of the new Tiny Living Landing page">
-                        <figcaption>The updated landing page design</figcaption>
+                        <figcaption>The updated landing page design using Figma</figcaption>
                     </figure>
                 </section>
                 <a href="<?php echo get_public_url("pages/design.php"); ?>" class="btn more-proj">More Projects</a>

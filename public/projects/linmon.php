@@ -104,7 +104,7 @@
                         <figcaption>Linmon advertisement poster made using Adobe Illustrator</figcaption>
                     </figure>
                     <div class="col-12 col-6-lg">
-                        <h2>Final Poster using Illustrator</h2>
+                        <h2>Poster using Adobe Illustrator</h2>
                         <p>For the poster, the specifications were to depict a scene in which the drink would be sold or experienced and include a perspective grid. I decided to show that by drinking Linmon lemon tea, you would be escaping the city and returning to nature. I did this by creating a faraway cityscape in the background. The drinks were placed in the center of the poster on a welcoming gingham tablecloth and surrounded by trees.</p>
                     </div>
                 </section>
