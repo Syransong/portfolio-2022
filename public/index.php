@@ -15,7 +15,7 @@
                 require(get_project_path('public/partials/global/header.php')); 
             ?>
             <main class="page-content">
-                <section class="bnr grid m-top">
+                <section class="bnr grid m-top p-top">
                     <div class="bnr-info col-12 col-12-sm col-12-md col-6-lg">
                         <p>Web Development | Graphic Design</p>
                         <h1>Karina Song</h1>
