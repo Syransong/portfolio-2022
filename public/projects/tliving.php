@@ -4,8 +4,8 @@
 <!DOCTYPE html>
 <html lang="en">
     <?php 
-        $meta_title = "Rapidish - Graphic Design Project by Karina Song";
-        $meta_description = "Rapidish is a fictional meal delivery company. To demonstrate skills in mobile-first and responsive design, a landing page was created.";
+        $meta_title = "Tiny Living - Graphic Design Project by Karina Song";
+        $meta_description = "A fictional tiny house building company that also has a print magazine. A logo, magazine cover, landing page and banner ad were created.";
         
         require(get_project_path('public/partials/global/head.php')); 
     ?>
