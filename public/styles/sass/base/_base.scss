@@ -2,7 +2,7 @@
 @use "../config"; 
 
 section {
-    padding: 4rem;
+    padding: 1rem;
 }
 
 .bul-list li::before {
@@ -12,4 +12,10 @@ section {
     display: inline-block; 
     width: 1.5em;
     // margin-left: -1em;
+}
+
+@media screen and (min-width: 576px) {
+    section {
+        padding: 4rem;
+    }
 }
