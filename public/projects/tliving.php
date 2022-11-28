@@ -109,7 +109,7 @@
                         <p>For the banner design, I decided to go with a square banner as this type of ad would be commonly seen on the aside section of websites. I wanted to grab people’s attention by making the “Tiny Living Magazine” large and in a bright orange that contrasts with the photo used. There is also a clear CTA to go to the website if consumers are interested in subscribing.</p>
                     </div>
                     <figure class="col-12 col-6-lg">
-                        <img src="<?php echo get_public_url("images/tliving-banner-ad.jpg")?>" class="box-shadow" alt="Banner ad for Tiny Living where a woman looks out the window of her tiny house towards a snowy forest">
+                        <img src="<?php echo get_public_url('images/tliving-banner.jpg')?>" class="box-shadow" alt="Banner ad for Tiny Living where a woman looks out the window of her tiny house towards a snowy forest">
                         <figcaption>Banner Ad for Tiny Living</figcaption>
                     </figure>
                 </section>
