@@ -13,7 +13,7 @@
         <div>
         <?php require(get_project_path('public/partials/global/header.php')); ?>
             <main class="rapidish">
-                <section class="project-bnr m-top grid align-items-center">
+                <section class="project-bnr m-top p-top grid align-items-center">
                     <div class="proj-bnr-info col-12 col-6-lg">
                         <ul class="d-flex">
                             <li>Front-end</li>

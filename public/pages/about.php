@@ -13,7 +13,7 @@
         <div>
             <?php require(get_project_path('public/partials/global/header.php')); ?>
             <main class="page-content">
-                <section class="about-intro m-top grid">
+                <section class="about-intro m-top p-top grid">
                     <img src="<?php echo get_public_url('/images/ksong-pfp.jpg')?>" class="col-12 col-6-lg" alt="Picture of Karina Song looking up">
                     <div class="about-info col-12 col-6-lg">
                         <h1>About Me</h1>

@@ -13,7 +13,7 @@
         <div>
         <?php require(get_project_path('public/partials/global/header.php')); ?>
             <main class="tliving">
-                <section class="project-bnr m-top grid">
+                <section class="project-bnr m-top p-top grid">
                     <div class="proj-bnr-info col-12 col-6-lg">
                         <ul class="d-flex">
                             <li>Print</li>
