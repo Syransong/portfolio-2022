@@ -9,7 +9,7 @@
             <?php require(get_project_path('public/partials/global/header.php')); ?>
             <main class="page-content">
                 <section class="about-intro m-top grid">
-                    <img src="<?php echo get_public_url('/images/ksong-pfp.svg')?>" class="col-12 col-6-lg" alt="Picture of Karina Song looking up">
+                    <img src="<?php echo get_public_url('/images/ksong-pfp.jpg')?>" class="col-12 col-6-lg" alt="Picture of Karina Song looking up">
                     <div class="about-info col-12 col-6-lg">
                         <h1>About Me</h1>
                         <p>Full-stack web developer and designer pivoting from Quality Assurance in the food industry. My love of the web development and design world started with a UX course and ran from there. I loved getting wrapped up in everything from working through a bug to moving a pixel by one space.</p>

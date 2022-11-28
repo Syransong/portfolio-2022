@@ -17,7 +17,7 @@
                     <div class="bnr-info col-12 col-12-sm col-12-md col-6-lg">
                         <p>Web Development | Graphic Design</p>
                         <h1>Karina Song</h1>
-                        <p>A human-centred designer and developer that strives to create accessible and intuitive products. Good design is when you don't have to think about it</p>
+                        <p>A human-centred designer and developer that strives to create accessible and intuitive products. Good design is when you don't have to think about it.</p>
                         <a href="mailto:ksysong@gmail.com" title="Email me" class="btn">Contact Me</a>
                     </div>
                     <img src="<?php echo get_public_url('/images/banner-img.svg'); ?>" class="col-12 col-12-sm col-12-md col-6-lg" alt="A turquoise arch with a pink circle at the top right corner and a golden star on the bottom left">
@@ -28,17 +28,17 @@
                             <li class="col-12 col-6-md col-4-lg">
                                 <img src="<?php echo get_public_url('/images/turq-door.svg'); ?>" alt="A turquoise door shape">
                                 <h3>Web Development</h3>
-                                <p>Trained in full-stack development, I can code and bridge the gap between design and development</p>
+                                <p>Trained in full-stack development, I can code and bridge the gap between design and development.</p>
                             </li>
                             <li class="col-12 col-6-md col-4-lg">
                                 <img src="<?php echo get_public_url('/images/gold-star.svg'); ?>" alt="A golden yellow star shape">
                                 <h3>Graphic Design</h3>
-                                <p>I am versatile in my ability to communicate a message, from designing a website to creating a strong brand identity</p>
+                                <p>I am versatile in my ability to communicate a message, from designing a website to creating a strong brand identity.</p>
                             </li>
                             <li class="col-12 col-6-md col-4-lg">
                                 <img src="<?php echo get_public_url('/images/pink-circle.svg'); ?>" alt="A coral pink circle">
                                 <h3>Accessible Design</h3>
-                                <p>My priority is to always have an inclusive mindset as designing for accessibility leads to better designs that benefit everyone</p>
+                                <p>My priority is to always have an inclusive mindset as designing for accessibility leads to better designs that benefit everyone.</p>
                             </li>
                         </ul>
 

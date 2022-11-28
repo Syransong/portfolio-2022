@@ -38,6 +38,8 @@
                         </li>
                         <li class="col-6 col-3-lg">
                             <h3>Deliverables</h3>
+                            <p>Logo</p>
+                            <p>Packaging Designs</p>
                             <p>Ad Poster (using Illustrator)</p>
                             <p>Ad Poster (using Dimension)</p>
                         </li>
@@ -74,11 +76,11 @@
                     <div class="col-12 col-6-lg">
                         <h2>Colour Palette and Logo Concept</h2>
                         <p>With the brand identity solidified, I had a clear idea of what I wanted to convey through the logo and colour palette. The main colours are yellow and green, which convey a healthy, fresh and bright feeling. </p>
-                        <p>For the logo, I sketches an array of thumbnails to brainstorm Ideas. I chose to go with a tree where the leaves of the tree create the shape of a lemon. I also incorporated the Chinese word 木, which means wood, as the shap of the trunk and branches.</p>
+                        <p>For the logo, I sketched an array of thumbnails to brainstorm ideas. I chose to go with a tree where the leaves of the tree create the shape of a lemon. I also incorporated the Chinese word 木, which means wood, as the shape of the trunk and branches.</p>
                     </div>
                     <figure class="col-12 col-6-lg">
                         <img src="<?php echo get_public_url("images/linmon-thumbs.png") ?>" alt="Thumbnails of the Linmon Logo">
-                        <figcaption>Thumbnails of the Linmon Logo</figcaption>
+                        <figcaption>Thumbnails of the Linmon logo</figcaption>
                     </figure>
                 </section>
                 <section class="grid align-items-center">
@@ -94,7 +96,7 @@
                 <section class="grid align-items-center">
                     <figure class="linmon-ai-poster col-12 col-6-lg">
                         <img src="<?php echo get_public_url("images/linmon-ai-poster.jpg") ?>" alt="Linmon Poster">
-                        <figcaption>Linmon Advertisement Poster made using Illustrator</figcaption>
+                        <figcaption>Linmon advertisement poster made using Adobe Illustrator</figcaption>
                     </figure>
                     <div class="col-12 col-6-lg">
                         <h2>Final Poster using Illustrator</h2>
@@ -108,7 +110,7 @@
                     </div>
                     <figure class="col-12 linmon-dm-poster">
                         <img src="<?php echo get_public_url("images/linmon-dimension-poster.jpg") ?>" alt="Linmon Poster">
-                        <figcaption>Linmon Advertisement Poster made using Illustrator</figcaption>
+                        <figcaption>Linmon advertisement poster made using Adobe Dimension</figcaption>
                     </figure>
                 </section>
                 <a href="<?php echo get_public_url("pages/design.php"); ?>" class="btn more-proj">More Projects</a>

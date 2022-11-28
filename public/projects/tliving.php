@@ -11,8 +11,9 @@
                 <section class="project-bnr m-top grid">
                     <div class="proj-bnr-info col-12 col-6-lg">
                         <ul class="d-flex">
-                            <li>Web</li>
                             <li>Print</li>
+                            <li>Web</li>
+                            <li>Logo</li>
                             <li>Brand Identity</li>
                         </ul>
                         <h1>Tiny Living</h1>
