@@ -24,7 +24,7 @@
                         <p>Linmon is a fictional beverage company that sells lemon-based tea drinks.</p>
                         <p>The objective of this project was to design a logo and product packaging that have consistent branding. These assets would then would be used to create posters to advertise the company and drink.</p>
                     </div>
-                    <img src="<?php echo get_public_url("/images/linmon_juicebox.png")?>" alt="3D render of lemon tea juice box" class="juicebox col-12 col-6-lg">
+                    <img src="<?php echo get_public_url("/images/linmon_juicebox.png")?>" alt="3D render of Linmon lemon tea juice box" class="juicebox col-12 col-6-lg">
                 </section>
                 <section class="project-info">
                     <ul class="grid">
@@ -100,7 +100,7 @@
                 </section>
                 <section class="grid align-items-center">
                     <figure class="linmon-ai-poster col-12 col-6-lg">
-                        <img src="<?php echo get_public_url("images/linmon-ai-poster.jpg") ?>" alt="Linmon Poster">
+                        <img src="<?php echo get_public_url("images/linmon-ai-poster.jpg") ?>" alt="Linmon Poster depicting a picnic scene where lemon tea drinks are on a picnic table">
                         <figcaption>Linmon advertisement poster made using Adobe Illustrator</figcaption>
                     </figure>
                     <div class="col-12 col-6-lg">
@@ -114,7 +114,7 @@
                         <p>The same packaging assets were used to create a more realistic marketing poster using Adobe Dimension. This poster would advertise that the drinks could be enjoyed both hot or cold.</p>
                     </div>
                     <figure class="col-12 linmon-dm-poster">
-                        <img src="<?php echo get_public_url("images/linmon-dimension-poster.jpg") ?>" alt="Linmon Poster">
+                        <img src="<?php echo get_public_url("images/linmon-dimension-poster.jpg") ?>" alt="Linmon Poster depicting lemon tea beverages">
                         <figcaption>Linmon advertisement poster made using Adobe Dimension</figcaption>
                     </figure>
                 </section>

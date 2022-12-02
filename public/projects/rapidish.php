@@ -105,7 +105,7 @@
                         <img src="<?php echo get_public_url('images/rapidish-all-mockups.jpg')?>" class="box-shadow" alt="Mobile, tablet and desktop view of the Rapidish Landing page">
                         <figcaption>Mobile, tablet and desktop view</figcaption>
                     </figure>
-                    <a href="#" class="col-12 btn live-link">View Live Page</a>
+                    <a href="http://rapidish.karinasong.com" class="col-12 btn live-link" target="_blank" title="View live Rapidish landing page">View Live Page</a>
                 </section>
                 <section class="grid">
                     <div class="col-12 col-10-lg">

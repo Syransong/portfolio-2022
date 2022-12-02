@@ -116,7 +116,7 @@
                         <p>With the dimensions determined, I created the desings in Adobe Photoshop. I used the deep green, yellow and pink colours to make certain elements pop out in comparison with the rest of the box. For instance, these colours were used to highlight the 3 different blends of matcha in the box.</p>
                     </div>
                     <figure class="col-12 col-7-lg">
-                        <img src="<?php echo get_public_url("images/ematcha-pkging.png") ?>" alt="Top, bottom and side packaging design">
+                        <img src="<?php echo get_public_url("images/ematcha-pkging.png") ?>" alt="Top, bottom and side packaging design of the Emerald Matcha 3 tin set">
                         <figcaption>Packaging design for the top, front and side of the box</figcaption>
                     </figure>
                 </section>
