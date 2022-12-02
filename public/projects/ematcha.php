@@ -126,7 +126,7 @@
                         <p>The assets were then brought into Adobe After Effects to create a realistic 3D render of the product. Two light sources were added to create depth and realism to the render. The image was then brought into Adobe Photoshop to add a complementary tagline.</p>
                     </div>
                     <figure class="col-12">
-                        <img src="<?php echo get_public_url("images/ematcha-3d-render.jpg") ?>" alt="3D render of the Emerald Matcha 3 tin set with the tagline, rich smooth matcha" class="box-shadow">
+                        <img src="<?php echo get_public_url("images/ematcha-3d-render.jpg") ?>" alt="3D render of the Emerald Matcha 3 tin set with the tagline, rich smooth matcha" class="box-shadow ematcha-render">
                         <figcaption>3D render of the Emerald Matcha product</figcaption>
                     </figure>
                 </section>
@@ -146,7 +146,7 @@
                         <p>After selecting a design from the roughs generated, the final designs were created using Adobe InDesign. Elements from the product packaging design, such as the repeating pattern of the logo, were used to maintain a consistent theme. The designs were then taken into Adobe Dimension to create a 3D mockup. As a result, this created a strong brand identity for Emerlad Matcha.</p>
                     </div>
                     <figure class="col-12">
-                        <img src="<?php echo get_public_url("images/ematcha-mockup.png") ?>" alt="Mockup of Emerald Matcha Stationery set">
+                        <img src="<?php echo get_public_url("images/ematcha-mockup.png") ?>" alt="Mockup of Emerald Matcha Stationery set" class="ematcha-stationery">
                         <figcaption>Mockup of the Emerald Matcha stationery set</figcaption>
                     </figure>
                 </section>
