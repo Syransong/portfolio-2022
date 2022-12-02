@@ -48,9 +48,11 @@ latest work
 }
 
 
-.latest-work a {
+.latest-work li a {
+    color: config.$turquoise;
     text-decoration: none;
-
+    font-family: config.$primary-fonts;
+    font-weight: 500;
 }
 
 .latest-work h3, p {
@@ -133,5 +135,10 @@ Media Queries
 @media screen and (min-width: 1400px) {
     .bnr img {
         width: 80%;
+    }
+
+    .latest-work ul {
+        max-width: 67.5rem;
+        margin: 0 auto;
     }
 }

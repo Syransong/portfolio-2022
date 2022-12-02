@@ -24,6 +24,7 @@
 .large-card p {
     margin-bottom: 20px;
 }
+
 .large-card a {
     color: config.$turquoise;
     text-decoration: none;
@@ -43,7 +44,7 @@ Media Queries
 @media screen and (min-width: 1024px) {
     .large-card {
         flex-direction: row;
-        max-width: 1000px;
+        max-width: 67.5rem;
     }
 }
 
