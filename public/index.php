@@ -28,12 +28,12 @@
                     <div class="container">
                         <ul class="grid">
                             <li class="col-12 col-6-md col-4-lg">
-                                <img src="<?php echo get_public_url('/images/turq-door.svg'); ?>" alt="A turquoise door shape">
+                                <img src="<?php echo get_public_url('/images/gold-star.svg'); ?>" alt="A golden yellow star shape">
                                 <h3>Web Development</h3>
                                 <p>Trained in full-stack development, I can code and bridge the gap between design and development.</p>
                             </li>
                             <li class="col-12 col-6-md col-4-lg">
-                                <img src="<?php echo get_public_url('/images/gold-star.svg'); ?>" alt="A golden yellow star shape">
+                                <img src="<?php echo get_public_url('/images/turq-door.svg'); ?>" alt="A turquoise door shape">
                                 <h3>Graphic Design</h3>
                                 <p>I am versatile in my ability to communicate a message, from designing a website to creating a strong brand identity.</p>
                             </li>

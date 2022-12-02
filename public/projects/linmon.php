@@ -73,8 +73,8 @@
                 <section class="grid">
                     <div class="col-12 col-10-lg">
                         <h2 class="">Brainstorming the Brand</h2>
-                        <p class="">When we were first introduced to this project, I immediately knew that I wanted to do a lemon-based drink. I research well-known brands that produce lemon-based drinks, such as Nestea, Vitasoy and C.C. Lemon. The brand name would be called "Linmon", which is the combination of the Chinese word 林, which means forest, and the word, "lemon". </p>
-                        <p>I decided that my fictional brand would promote the health benefits of lemons and emphasize their user of simple, high-quality and unique ingredients. As a result, the target audience would be young people aged 20-35 years old who are health-conscious and enjoy tea.</p>
+                        <p class="">When we were first introduced to this project, I immediately knew that I wanted to do a lemon-based drink. I researched well-known brands that produce lemon-based drinks, such as Nestea, Vitasoy and C.C. Lemon. The brand name would be called "Linmon", which is the combination of the Chinese word 林, which means forest, and the word, "lemon". </p>
+                        <p>I decided that my fictional brand would promote the health benefits of lemons and emphasize their use of simple, high-quality and unique ingredients. As a result, the target audience would be young people aged 20-35 years old who are health-conscious and enjoy tea.</p>
                     </div>
                 </section>
                 <section class="grid align-items-center">

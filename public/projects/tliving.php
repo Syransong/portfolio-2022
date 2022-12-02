@@ -23,9 +23,9 @@
                         </ul>
                         <h1>Tiny Living</h1>
                         <p>Tiny Living is a fictional tiny home builder based in Vancouver, BC. In addition to their design and building services, they print a monthly magazine.</p>
-                        <p>The objective was to create a magazine cover, a landing page mockup and a banner ad. These assets would showcase the company’s products and  unique brand identity.</p>
+                        <p>The objective was to create a magazine cover, a landing page mockup and a banner ad. These assets would showcase the company&apos;s products and  unique brand identity.</p>
                     </div>
-                    <img src="<?php echo get_public_url("/images/tliving-mag-cover.png")?>" alt="" class="tliving-preview-img col-12">
+                    <img src="<?php echo get_public_url("/images/tliving-mag-cover.png")?>" alt="Preview of the Tiny Living magazine cover" class="tliving-preview-img col-12">
                 </section>
                 <section class="project-info">
                     <ul class="grid">
@@ -90,7 +90,7 @@
                 <section class="grid">
                     <div class="col-12 col-10-lg">
                         <h2 class="">Colour Palette and Design Concept</h2>
-                        <p class="">The look and feel of the magazine would be a mix of both traditional and modern elements. I did this to reflect how tiny houses are a relatively new concept but still serve as one’s home. The designs themselves would have a modern look as I chose to only use sans serif fonts. To contrast, an Analogous colour scheme of orange, green and yellow is used to give a warm and welcoming feeling as these are naturalistic colours. </p>
+                        <p class="">The look and feel of the magazine would be a mix of both traditional and modern elements. I did this to reflect how tiny houses are a relatively new concept but still serve as one&apos;s home. The designs themselves would have a modern look as I chose to only use sans serif fonts. To contrast, an Analogous colour scheme of orange, green and yellow is used to give a warm and welcoming feeling as these are naturalistic colours. </p>
                     </div>
                 </section>
                 <section class="grid align-items-center">
