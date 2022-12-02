@@ -1,19 +1,10 @@
-
-
-// theme wrap, display flex, text center 
-
 /*----------------------------------
 Global
 ----------------------------------*/
 
 .theme-wrap {
-    // max-width: 90vw;
     margin: 0 auto;
 }
-
-// section {
-//     padding: 75px 0px;
-// }
 
 /*----------------------------------
 Grid
@@ -24,10 +15,6 @@ Grid
     grid-template-columns: repeat(12, 1fr);
     gap: 2rem 0rem;
 }
-
-// .col {
-//     grid-column: auto / span 12; 
-// }
 
 .col-1 {
     grid-column: span 1;
@@ -97,7 +84,6 @@ Helper Classes
     max-width: 67.5rem;
     width: 100%;
     margin: 0 auto;
-    // padding: 0px 1rem;
 }
 
 .m-top {
@@ -115,6 +101,10 @@ Helper Classes
 .box-shadow {
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
+
+/*----------------------------------
+Media Queries
+----------------------------------*/
 
 @media screen and (min-width: 576px) {
     .p-top {

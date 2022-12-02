@@ -1,18 +1,5 @@
 @use "../config";
 
-/*----------------------------------
-Button
-----------------------------------*/
-// .btn {
-//     font-family: config.$primary-fonts;
-//     text-decoration: none;
-//     background-color: config.$turquoise;
-//     padding: 15px 40px;
-//     color: config.$white;
-//     border-radius: 15px;
-//     display: inline-block;
-// }
-
 .btn {
     font-family: config.$primary-fonts;
     text-decoration: none;
@@ -30,10 +17,13 @@ Button
     transition: .2s;
 }
 
+/*----------------------------------
+Media Queries
+----------------------------------*/
+
 @media (min-width: 1000px) {
     .btn:hover {
-        background-color: white;
+        background-color: config.$white;
         color: config.$turquoise;
-        
     }
 }

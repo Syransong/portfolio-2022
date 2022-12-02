@@ -2,7 +2,6 @@
 
 .ematcha-logo {
     mix-blend-mode: multiply;
-    // grid-column: 7 / 12;
     width: 100%;
     height: auto;
     max-width: 453px;
@@ -12,8 +11,8 @@
 .colour-palette {
     gap: 2rem;
     justify-content: space-evenly;
-    // grid-column: 8 / 12;
 }
+
 .colour-palette .dot {
     height: 4rem;
     width: 4rem;
@@ -42,6 +41,10 @@
     margin: 0 auto;
     order: 2;
 }
+
+/*----------------------------------
+Media Queries
+----------------------------------*/
 
 @media screen and (min-width: 768px) {
     .ematcha-logo {

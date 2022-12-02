@@ -44,23 +44,8 @@ figure img {
 .project-info h4 {
     font-size: 1.2rem;
 }
+
 // Project Summary 
-
-// .project-summary ul {
-
-// }
-
-// .project-summary li:first-child {
-//     grid-column: auto / span 4;
-// }
-
-// .project-summary li:nth-child(2) {
-//     grid-column: auto / span 4;
-// }
-
-// .project-summary li:nth-child(3) {
-//     grid-column: auto / span 4;
-// }
 
 .project-summary .num1, .num2, .num3 {
     font-size: 1.8rem;
@@ -78,6 +63,10 @@ figure img {
 .project-summary .num3 {
     color: config.$pink;
 }
+
+/*----------------------------------
+Media Queries
+----------------------------------*/
 
 @media screen and (min-width: 1400px) {
     .proj-bnr-info {

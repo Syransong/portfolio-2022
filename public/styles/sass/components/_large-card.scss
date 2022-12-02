@@ -36,6 +36,10 @@
     max-width: 437px;
 }
 
+/*----------------------------------
+Media Queries
+----------------------------------*/
+
 @media screen and (min-width: 1024px) {
     .large-card {
         flex-direction: row;
