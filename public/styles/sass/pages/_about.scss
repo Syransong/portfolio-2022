@@ -91,6 +91,11 @@ Media Queries
 }
 
 @media screen and (min-width: 1200px) {
+
+    .about-intro img {
+        width: 100%;
+    }
+
     .hobbies img {
         width: 40%;
     }
