@@ -96,9 +96,9 @@ Media Queries
 }
 
 @media screen and (min-width: 1024px) {
-    .bnr {
-        align-items: center;
-    }
+    // .bnr {
+    //     align-items: center;
+    // }
 
     .bnr h1 {
         font-size: 5rem;
@@ -134,7 +134,7 @@ Media Queries
 
 @media screen and (min-width: 1400px) {
     .bnr img {
-        width: 80%;
+        // width: 80%;
     }
 
     .latest-work ul {

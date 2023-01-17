@@ -16,7 +16,7 @@
             ?>
             <main class="page-content">
                 <section class="bnr m-top p-top">
-                    <div class="container grid">
+                    <div class="container grid align-items-center">
                         <div class="bnr-info col-12 col-12-sm col-12-md col-6-lg">
                             <p>Web Development | Graphic Design</p>
                             <h1>Karina Song</h1>
