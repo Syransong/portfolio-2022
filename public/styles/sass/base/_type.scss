@@ -1,5 +1,11 @@
 @use "../config";
 
+/*----------------------------------
+Headings
+----------------------------------*/
+html {
+    font-size: calc(1rem + 0.390625vw);
+}
 
 /*----------------------------------
 Headings
@@ -16,34 +22,34 @@ h4, h5 {
 }
 
 h1 {
-    font-size: 2.5rem;
+    // font-size: 2.5rem;
+    font-size: 3.052rem;
     line-height: 1.5;
 }
 
 h2 {
-    font-size: 1.7rem;
+    // font-size: 1.7rem;
+    font-size: 2.441rem;
     line-height: 1.4;
 }
 
 h3 {
-    font-size: 1.5rem;
+    // font-size: 1.5rem;
+    font-size: 1.953rem;
     line-height: 1.4;
     margin: 5px 0;
 }
 
 h4 {
-
-    font-size: 1.125rem;
+    // font-size: 1.125rem;
+    font-size: 1.563rem;
     color: config.$grey;
     margin: 5px 0;
 }
 
 h5 {
-    font-size: 1.1rem;
-}
-
-h5 {
-    font-size: 1rem;
+    // font-size: 1.1rem;
+    font-size: 1.25rem;
 }
 
 
@@ -52,13 +58,12 @@ Typography
 ----------------------------------*/
 li, p, figcaption {
     font-size: 1rem;
-    line-height: 1.3;
+    line-height: 1.5;
     font-family: config.$body-fonts;
 }
 
 li {
     line-height: 1.2;
-
 }
 
 figcaption {
@@ -71,141 +76,141 @@ p {
     margin-bottom: 1rem;
 }
 
-/*----------------------------------
-Media Queries
-----------------------------------*/
+// /*----------------------------------
+// Media Queries
+// ----------------------------------*/
 
-@media screen and (min-width: 576px) {
+// @media screen and (min-width: 576px) {
    
-    h1 {
-        font-size: 3.75rem;
-    }
+//     h1 {
+//         font-size: 3.75rem;
+//     }
     
-    h2 {
-        font-size: 2rem;
-    }
+//     h2 {
+//         font-size: 2rem;
+//     }
     
-    h3 {
-        font-size: 1.8rem;
-    }
+//     h3 {
+//         font-size: 1.8rem;
+//     }
     
-    h4 {
-        font-size: 1.5rem;
-    }
+//     h4 {
+//         font-size: 1.5rem;
+//     }
     
-    h5 {
-        font-size: 1.125rem;
-    }
+//     h5 {
+//         font-size: 1.125rem;
+//     }
     
-    h5 {
-        font-size: 1rem;
-    }
-}
+//     h5 {
+//         font-size: 1rem;
+//     }
+// }
 
-@media screen and (min-width: 768px) {
+// @media screen and (min-width: 768px) {
 
-    h1 {
-        font-size: 3.75rem;
-    }
+//     h1 {
+//         font-size: 3.75rem;
+//     }
     
-    h2 {
-        font-size: 2rem;
-    }
+//     h2 {
+//         font-size: 2rem;
+//     }
     
-    h3 {
-        font-size: 1.8rem;
-    }
+//     h3 {
+//         font-size: 1.8rem;
+//     }
     
-    h4 {
-        font-size: 1.5rem;
-    }
+//     h4 {
+//         font-size: 1.5rem;
+//     }
     
-    h5 {
-        font-size: 1.125rem;
-    }
+//     h5 {
+//         font-size: 1.125rem;
+//     }
     
-    h5 {
-        font-size: 1rem;
-    }
-}
+//     h5 {
+//         font-size: 1rem;
+//     }
+// }
 
-@media screen and (min-width: 1024px) {
+// @media screen and (min-width: 1024px) {
 
-    h1 {
-        font-size: 3.75rem;
-    }
+//     h1 {
+//         font-size: 3.75rem;
+//     }
     
-    h2 {
-        font-size: 2rem;
-    }
+//     h2 {
+//         font-size: 2rem;
+//     }
     
-    h3 {
-        font-size: 1.8rem;
-    }
+//     h3 {
+//         font-size: 1.8rem;
+//     }
     
-    h4 {
-        font-size: 1.5rem;
-    }
+//     h4 {
+//         font-size: 1.5rem;
+//     }
     
-    h5 {
-        font-size: 1.125rem;
-    }
+//     h5 {
+//         font-size: 1.125rem;
+//     }
     
-    h5 {
-        font-size: 1rem;
-    }
-}
+//     h5 {
+//         font-size: 1rem;
+//     }
+// }
 
-@media screen and (min-width: 1200px) {
+// @media screen and (min-width: 1200px) {
 
-    h1 {
-        font-size: 3.75rem;
-    }
+//     h1 {
+//         font-size: 3.75rem;
+//     }
     
-    h2 {
-        font-size: 2rem;
-    }
+//     h2 {
+//         font-size: 2rem;
+//     }
     
-    h3 {
-        font-size: 1.8rem;
-    }
+//     h3 {
+//         font-size: 1.8rem;
+//     }
     
-    h4 {
-        font-size: 1.5rem;
-    }
+//     h4 {
+//         font-size: 1.5rem;
+//     }
     
-    h5 {
-        font-size: 1.125rem;
-    }
+//     h5 {
+//         font-size: 1.125rem;
+//     }
     
-    h5 {
-        font-size: 1rem;
-    }
-}
+//     h5 {
+//         font-size: 1rem;
+//     }
+// }
 
-@media screen and (min-width: 1400px) {
+// @media screen and (min-width: 1400px) {
 
-    h1 {
-        font-size: 3.75rem;
-    }
+//     h1 {
+//         font-size: 3.75rem;
+//     }
     
-    h2 {
-        font-size: 2rem;
-    }
+//     h2 {
+//         font-size: 2rem;
+//     }
     
-    h3 {
-        font-size: 1.8rem;
-    }
+//     h3 {
+//         font-size: 1.8rem;
+//     }
     
-    h4 {
-        font-size: 1.5rem;
-    }
+//     h4 {
+//         font-size: 1.5rem;
+//     }
     
-    h5 {
-        font-size: 1.125rem;
-    }
+//     h5 {
+//         font-size: 1.125rem;
+//     }
     
-    h5 {
-        font-size: 1rem;
-    }
-}
+//     h5 {
+//         font-size: 1rem;
+//     }
+// }
