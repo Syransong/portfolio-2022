@@ -1,1 +1,20 @@
 @use "../config";
+
+.small-card a {
+    color: config.$turquoise;
+    text-decoration: none;
+    font-family: config.$primary-fonts;
+    font-weight: 500;
+}
+
+.small-card h3, p {
+    color: black;
+}
+
+.small-card {
+    text-align: left;
+    cursor: pointer;
+}
+.small-card img {
+    width: 100%;
+}

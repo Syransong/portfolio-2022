@@ -1,5 +1,5 @@
 <section class="connect">
-    <div class="container grid">
+    <div class="container grid align-items-center">
         <img src="<?php echo get_public_url('/images/circles.svg'); ?>" class="circles col-12 col-4-md col-6-lg" alt="Graphic of 3 different coloured circles">
         <div class="contact-info grid col-12 col-8-md col-6-lg">
             <h2 class="col-12">Let's get connected!</h2>

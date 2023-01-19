@@ -41,34 +41,10 @@ Skills
 }
 
 /*----------------------------------
-latest work
+Featured work
 ----------------------------------*/
-.latest-work {
+.featured-work {
     text-align: center;
-}
-
-
-.latest-work li a {
-    color: config.$turquoise;
-    text-decoration: none;
-    font-family: config.$primary-fonts;
-    font-weight: 500;
-}
-
-.latest-work h3, p {
-    color: black;
-}
-
-.latest-work li {
-    text-align: left;
-    cursor: pointer;
-}
-.latest-work li img {
-    width: 100%;
-}
-
-.latest-work .btn {
-    margin: 2rem auto;
 }
 
 /*----------------------------------
