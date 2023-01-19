@@ -3,9 +3,9 @@
 /*----------------------------------
 Headings
 ----------------------------------*/
-html {
-    font-size: calc(16px + 0.390625vw);
-}
+// html {
+//     font-size: calc(16px + 0.390625vw);
+// }
 
 /*----------------------------------
 Headings
@@ -80,137 +80,142 @@ p {
 // Media Queries
 // ----------------------------------*/
 
-// @media screen and (min-width: 576px) {
+@media screen and (min-width: 576px) {
    
-//     h1 {
-//         font-size: 3.75rem;
-//     }
+    h1 {
+        font-size: 3.243rem;
+    }
     
-//     h2 {
-//         font-size: 2rem;
-//     }
+    h2 {
+        font-size: 2.595rem;
+    }
     
-//     h3 {
-//         font-size: 1.8rem;
-//     }
+    h3 {
+        font-size: 2.076rem;
+    }
     
-//     h4 {
-//         font-size: 1.5rem;
-//     }
+    h4 {
+        font-size: 1.661rem;
+    }
     
-//     h5 {
-//         font-size: 1.125rem;
-//     }
-    
-//     h5 {
-//         font-size: 1rem;
-//     }
-// }
+    h5 {
+        font-size: 1.329rem;
+    }
 
-// @media screen and (min-width: 768px) {
+    p {
+        // font-size -> 17px
+        font-size: 1.063rem
+    }
+}
 
-//     h1 {
-//         font-size: 3.75rem;
-//     }
-    
-//     h2 {
-//         font-size: 2rem;
-//     }
-    
-//     h3 {
-//         font-size: 1.8rem;
-//     }
-    
-//     h4 {
-//         font-size: 1.5rem;
-//     }
-    
-//     h5 {
-//         font-size: 1.125rem;
-//     }
-    
-//     h5 {
-//         font-size: 1rem;
-//     }
-// }
+@media screen and (min-width: 768px) {
 
-// @media screen and (min-width: 1024px) {
+    h1 {
+        font-size: 3.432rem;
+    }
+    
+    h2 {
+        font-size: 2.746rem;
+    }
+    
+    h3 {
+        font-size: 2.197rem;
+    }
+    
+    h4 {
+        font-size: 1.758rem;
+    }
+    
+    h5 {
+        font-size: 1.406rem;
+    }
 
-//     h1 {
-//         font-size: 3.75rem;
-//     }
-    
-//     h2 {
-//         font-size: 2rem;
-//     }
-    
-//     h3 {
-//         font-size: 1.8rem;
-//     }
-    
-//     h4 {
-//         font-size: 1.5rem;
-//     }
-    
-//     h5 {
-//         font-size: 1.125rem;
-//     }
-    
-//     h5 {
-//         font-size: 1rem;
-//     }
-// }
+    p {
+        // font size = 18px
+        font-size: 1.125rem;
+    }
+}
 
-// @media screen and (min-width: 1200px) {
+@media screen and (min-width: 1024px) {
 
-//     h1 {
-//         font-size: 3.75rem;
-//     }
+    h1 {
+        font-size: 3.625rem;
+    }
     
-//     h2 {
-//         font-size: 2rem;
-//     }
+    h2 {
+        font-size: 2.900rem;
+    }
     
-//     h3 {
-//         font-size: 1.8rem;
-//     }
+    h3 {
+        font-size: 2.320rem;
+    }
     
-//     h4 {
-//         font-size: 1.5rem;
-//     }
+    h4 {
+        font-size: 1.856rem;
+    }
     
-//     h5 {
-//         font-size: 1.125rem;
-//     }
-    
-//     h5 {
-//         font-size: 1rem;
-//     }
-// }
+    h5 {
+        font-size: 1.485rem;
+    }
 
-// @media screen and (min-width: 1400px) {
+    p{ 
+        // equivalent to 19px
+        font-size: 1.188rem;
+    }
+}
 
-//     h1 {
-//         font-size: 3.75rem;
-//     }
+@media screen and (min-width: 1200px) {
+
+    h1 {
+        font-size: 3.814rem;
+    }
     
-//     h2 {
-//         font-size: 2rem;
-//     }
+    h2 {
+        font-size: 3.052rem;
+    }
     
-//     h3 {
-//         font-size: 1.8rem;
-//     }
+    h3 {
+        font-size: 2.441rem;
+    }
     
-//     h4 {
-//         font-size: 1.5rem;
-//     }
+    h4 {
+        font-size: 1.953rem;
+    }
     
-//     h5 {
-//         font-size: 1.125rem;
-//     }
+    h5 {
+        font-size: 1.562rem;
+    }
+
+    p {
+        // equal to 20px
+        font-size: 1.25rem;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+
+    h1 {
+        font-size: 4.007rem;
+    }
     
-//     h5 {
-//         font-size: 1rem;
-//     }
-// }
+    h2 {
+        font-size: 3.206rem;
+    }
+    
+    h3 {
+        font-size: 2.564rem;
+    }
+    
+    h4 {
+        font-size: 2.052rem;
+    }
+    
+    h5 {
+        font-size: 1.641rem;
+    }
+
+    p {
+        // equal to 21px
+        font-size: 1.313rem;
+    }
+}

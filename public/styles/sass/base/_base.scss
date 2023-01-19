@@ -25,6 +25,12 @@ section {
     }
 }
 
+@media screen and (min-width: 1200px) {
+    section {
+        padding: 4rem 200px;
+    }
+}
+
 @media screen and (min-width: 1440px) {
     section {
         // max-width: 1280px;
