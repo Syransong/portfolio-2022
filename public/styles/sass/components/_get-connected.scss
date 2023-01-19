@@ -49,7 +49,14 @@ Media Queries
     .connect .circles {
         width: 50%;
     }
-    
+
+    .soc-med li {
+        transition: 0.3s;
+    }
+
+    .soc-med li:hover {
+        transform: translate(0, -5px);
+    }
 }
 
 @media screen and (min-width: 1400px) {
