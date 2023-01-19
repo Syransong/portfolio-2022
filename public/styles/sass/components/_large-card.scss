@@ -2,6 +2,7 @@
 
 
 .large-card {
+    // padding: 2.2rem 1.75rem;
     padding: 3rem;
     gap: 2rem;
     align-items: center;
@@ -19,6 +20,7 @@
 
 .large-card ul {
     gap: 1rem;
+    flex-wrap: wrap;
 }
 
 .large-card p {
@@ -51,5 +53,9 @@ Media Queries
 @media screen and (min-width: 1400px) {
     .large-card img {
         width: 80%;
+    }
+
+    .large-card h1 {
+        font-size: 3rem;
     }
 }

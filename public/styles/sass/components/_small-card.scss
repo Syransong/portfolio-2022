@@ -18,3 +18,9 @@
 .small-card img {
     width: 100%;
 }
+
+@media screen and (min-width: 1024px) {
+    .small-card h3 {
+        font-size: 2rem;
+    }
+}
