@@ -53,28 +53,22 @@
                         <h2>Featured Work</h2>
                         <ul class="grid">
                             <li class="col-12 col-6-md col-4-lg small-card">
-                                <a href="<?php echo get_public_url('/projects/linmon.php');?>">
-                                    <img src="<?php echo get_public_url('/images/linmon-square-tn.jpg'); ?>" alt="A mockup up of a glass bottle and a juicebox of Linmon Lemon tea">
-                                    <h3>Linmon</h3>
-                                    <p>Product Design, Brand Identity</p>
-                                    <a href="<?php echo get_public_url('/projects/linmon.php');?>">View Project &rarr;</a>
-                                </a>
+                                <img src="<?php echo get_public_url('/images/linmon-square-tn.jpg'); ?>" alt="A mockup up of a glass bottle and a juicebox of Linmon Lemon tea">
+                                <h3>Linmon</h3>
+                                <p>Product Design, Brand Identity</p>
+                                <a href="<?php echo get_public_url('/projects/linmon.php');?>">View Project &rarr;</a>
                             </li>
                             <li class="col-12 col-6-md col-4-lg small-card">
-                                <a href="<?php echo get_public_url('/projects/ematcha.php');?>">
-                                    <img src="<?php echo get_public_url('/images/ematcha-square-tn.jpg'); ?>" alt="Mockup of the Emerald Matcha stationery set">
-                                    <h3>Emerald Matcha</h3>
-                                    <p>Product Design, Brand Identity</p>
-                                    <a href="<?php echo get_public_url('/projects/ematcha.php');?>">View Project &rarr;</a>
-                                </a>
+                                <img src="<?php echo get_public_url('/images/ematcha-square-tn.jpg'); ?>" alt="Mockup of the Emerald Matcha stationery set">
+                                <h3>Emerald Matcha</h3>
+                                <p>Product Design, Brand Identity</p>
+                                <a href="<?php echo get_public_url('/projects/ematcha.php');?>">View Project &rarr;</a>
                             </li>
                             <li class="col-12 col-6-md col-4-lg small-card">
-                                <a href="<?php echo get_public_url('/projects/tliving.php');?>">
-                                    <img src="<?php echo get_public_url('/images/tliving-square-tn.jpg'); ?>" alt="Preview of Tiny Living's landing page">
-                                    <h3>Tiny Living</h3>
-                                    <p>Print Design, Web Design</p>
-                                    <a href="<?php echo get_public_url('/projects/tliving.php');?>">View Project &rarr;</a>
-                                </a>
+                                <img src="<?php echo get_public_url('/images/tliving-square-tn.jpg'); ?>" alt="Preview of Tiny Living's landing page">
+                                <h3>Tiny Living</h3>
+                                <p>Print Design, Web Design</p>
+                                <a href="<?php echo get_public_url('/projects/tliving.php');?>">View Project &rarr;</a>
                             </li>
                         </ul>
                     </div>

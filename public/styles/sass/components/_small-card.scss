@@ -5,6 +5,7 @@
     text-decoration: none;
     font-family: config.$primary-fonts;
     font-weight: 500;
+    position: relative;
 }
 
 .small-card h3, p {
@@ -14,7 +15,9 @@
 .small-card {
     text-align: left;
     cursor: pointer;
+    transition: 0.3s;
 }
+
 .small-card img {
     width: 100%;
 }
@@ -22,5 +25,31 @@
 @media screen and (min-width: 1024px) {
     .small-card h3 {
         font-size: 2rem;
+    }
+
+    .small-card a::before {
+        content: "";
+        position: absolute;
+        display: block;
+        // width: 100%;
+        width: 0;
+        height: 3px;
+        bottom: -3px;
+        left: 0;
+        background-color: config.$turquoise;
+        // transform: scaleX(0);
+        visibility: hidden;
+        // transition: transform 0.3s ease;
+        transition: all 0.3s ease-in-out;
+    }
+    
+    .small-card a:hover::before {
+        // transform: scaleX(1);
+        visibility: visible;
+        width: 100%;
+    }
+
+    .small-card:hover {
+        transform: translate(0, -10px);
     }
 }
