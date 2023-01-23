@@ -92,7 +92,7 @@ Helper Classes
 }
 
 .p-top {
-    padding-top: 6rem;
+    padding-top: 4rem;
 }
 
 .align-items-center {
@@ -108,11 +108,18 @@ Media Queries
 ----------------------------------*/
 
 @media screen and (min-width: 576px) {
-    .p-top {
-        padding-top: 4rem;
-    }
 
     .grid {
         gap: 2rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .p-top {
+        padding-top: 8rem;
+    }
+
+    .grid {
+        gap: 3rem;
     }
 }
