@@ -16,7 +16,7 @@ Design Filter
     justify-content: space-evenly;
     width: 50%;
     align-items: center;
-    visibility: hidden;
+    display: none;
 }
 
 .filter ul a {
@@ -40,3 +40,9 @@ Design Filter
     flex-direction: column;
     gap: 2rem;
 }
+
+@media screen and (min-width: 1024px) {
+    .project-list {
+        gap: 5rem;
+    }
+ }

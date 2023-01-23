@@ -62,12 +62,18 @@ figure img {
 Media Queries
 ----------------------------------*/
 
-@media screen and (min-width: 1400px) {
-    .proj-bnr-info {
-        grid-column: 2 / 6;
+@media screen and (min-width: 1024px) {
+    .proj-bnr-info p {
+        width: 90%;
     }
+}
 
-    .project-bnr img {
-        grid-column: 7 / 12;
-    }
+@media screen and (min-width: 1400px) {
+    // .proj-bnr-info {
+    //     grid-column: 2 / 6;
+    // }
+
+    // .project-bnr img {
+    //     grid-column: 7 / 12;
+    // }
 }

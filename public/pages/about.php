@@ -88,7 +88,7 @@
                 <section class="hobbies">
                     <div class="container grid">
                         <img src="<?php echo get_public_url('/images/about-doll.svg')?>" class="col-12 col-4-md col-6-lg" alt="Graphic of a turquoise arch with a golden star at the top and a pink semi-circle on the bottom">
-                        <div class="hobby-info col-12 col-8-md col-6-lg">
+                        <div class="hobby-info align-items-center col-12 col-8-md col-6-lg">
                             <h2>In my spare time, I would be...</h2>
                             <ul>
                                 <li><p>listening to a new album</p></li>

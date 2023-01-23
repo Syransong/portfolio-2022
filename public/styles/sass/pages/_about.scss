@@ -88,6 +88,10 @@ Media Queries
    .hobbies img {
         width: 50%;
    }
+
+   .hobby-info h2 {
+        font-size: 2rem;
+   }
 }
 
 @media screen and (min-width: 1200px) {
