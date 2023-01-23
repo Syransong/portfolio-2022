@@ -66,6 +66,10 @@ Media Queries
     .proj-bnr-info p {
         width: 90%;
     }
+
+    .project-info h3, .project-summary h3 {
+        font-size: 2rem;
+    }
 }
 
 @media screen and (min-width: 1400px) {
