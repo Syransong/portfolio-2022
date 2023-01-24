@@ -46,7 +46,7 @@
                                 </li>
                                 <li>
                                     <h3>Design</h3>
-                                    <p>Adobe Suit (Photoshop, Illustrator, InDesign, Dimension, After Effects, Audition, XD, Aero), Figma</p>
+                                    <p>Adobe Suite (Photoshop, Illustrator, InDesign, Dimension, After Effects, Audition, XD, Aero), Figma</p>
                                 </li>
                             </ul>
                         </div>
@@ -93,7 +93,7 @@
                             <ul>
                                 <li><p>listening to a new album</p></li>
                                 <li><p>watching a new cooking or baking show</p></li>
-                                <li><p>taking picture of nature</p></li>
+                                <li><p>taking pictures of nature</p></li>
                                 <li><p>bullet journaling with my growing stationery collection</p></li>
                             </ul>
                         </div>
