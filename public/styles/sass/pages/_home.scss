@@ -73,19 +73,20 @@ Media Queries
 }
 
 @media screen and (min-width: 1024px) {
-    // .bnr {
-    //     align-items: center;
-    // }
+    .bnr .areas {
+        font-size: 1.5rem;
+        margin: 0;
+    }
 
     .bnr h1 {
-        font-size: 7rem;
+        font-size: 6.5rem;
         line-height: 7.1rem;
-        margin: 1.5rem 0 2rem;
+        margin: 0.5rem 0 4rem;
         letter-spacing: 0.15rem;
     }
 
     .bnr p {
-        width: 90%;
+        width: 95%;
     }
 
     .bnr-info {

@@ -18,7 +18,7 @@
                 <section class="bnr m-top p-top">
                     <div class="container grid align-items-center">
                         <div class="bnr-info col-12 col-12-sm col-12-md col-6-lg">
-                            <p>Web Development | Graphic Design</p>
+                            <p class="areas">Web Development | Graphic Design</p>
                             <h1>Karina Song</h1>
                             <p>A human-centred designer and developer that strives to create accessible and intuitive products. Good design is when you don't have to think about it.</p>
                             <a href="mailto:ksysong@gmail.com" title="Email me" class="btn">Contact Me</a>
