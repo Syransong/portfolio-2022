@@ -1,6 +1,12 @@
 // base text, imag estyles, visual styles, font size, 
 @use "../config"; 
 
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
 section {
     padding: 4rem 1rem;
 }
