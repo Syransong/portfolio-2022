@@ -1,6 +1,10 @@
 // base text, imag estyles, visual styles, font size, 
 @use "../config"; 
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     min-height: 100vh;
     display: flex;

@@ -1,0 +1,36 @@
+@use "../config";
+
+#scroll-top {
+    position: fixed;
+    bottom: 40px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color:  config.$pink;
+    color: white;
+    cursor: pointer;
+    border-radius: 50%;
+    font-size: 18px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    transition: background-color .3s, opacity .5s, visibility .5s, transform .3s;
+    height: 55px;
+    width: 55px;
+    text-align: center;
+}
+  
+#scroll-top::after {
+    content: "\f077";
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2em;
+    line-height: 50px;
+    color: #fff;
+}
+
+#scroll-top:hover {
+    background-color: #f49e81;
+    transform: translate(0, -3px);
+}
