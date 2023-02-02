@@ -76,13 +76,13 @@
                     </figure>
                     <div class="col-12 col-6-lg col-5-xl">
                         <h2>Brainstorm</h2>
-                        <p>For this project, I wanted to code a landing page design where I previously created a high-fidelity mockup using Figma. This would be for a fictional company called Rapidish that offers a meal kit delivery service. I wanted to include more informative copy so i researched similar businesses, like Blue Apron and Hello Fresh, for inspiration. From my research, I found that it would be beneficial for potential customers to understand how the service operates and what is inside the meal kits.</p>
+                        <p>For this project, I wanted to code a landing page design where I previously created a high-fidelity mockup using Figma. This would be for a fictional company called Rapidish that offers a meal kit delivery service. I wanted to include more informative copy so I researched similar businesses, like Blue Apron and Hello Fresh, for inspiration. From my research, I found that it would be beneficial for potential customers to understand how the service operates and what is inside the meal kits.</p>
                     </div>
                 </section>
                 <section class="grid">
                     <div class="col-12 col-10-lg">
                         <h2>Plan</h2>
-                        <p>After determining what sections the landing page would have, I decided which jQuery plugins to use. We were given the option sof using 3 of the following: Gridder, Flickity, Lightbox, Accordion, MixItUp or Masonry. After looking at the documentation for each and seeing which plugin would be appropriate, these were my choices:</p>
+                        <p>After determining what sections the landing page would have, I decided which jQuery plugins to use. We were given the option of choosing 3 of the following: Gridder, Flickity, Lightbox, Accordion, MixItUp or Masonry. After looking at the documentation for each and seeing which plugin would be appropriate, these were my choices:</p>
                         <ul class="bul-list">
                             <li>Lightbox to display the Newsletter Subscription window</li>
                             <li>Masonry to display a gallery of trending meal kits</li>
