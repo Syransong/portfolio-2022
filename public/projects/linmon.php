@@ -122,5 +122,6 @@
             </main>
             <?php require('../partials/global/footer.php'); ?> 
         </div>
+        <script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
     </body>
 </html>
