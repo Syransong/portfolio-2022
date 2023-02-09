@@ -10,7 +10,7 @@
         require(get_project_path('public/partials/global/head.php')); 
     ?>
     <body>
-        <div>
+        <div class="project-page">
         <?php require(get_project_path('public/partials/global/header.php')); ?>
             <main class="linmon">
                 <section class="project-bnr m-top p-top grid align-items-center">
