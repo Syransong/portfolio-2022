@@ -84,7 +84,7 @@
                         <p>For the logo, I sketched an array of thumbnails to brainstorm ideas. I chose to go with a tree where the leaves of the tree create the shape of a lemon. I also incorporated the Chinese word 木, which means wood, as the shape of the trunk and branches.</p>
                     </div>
                     <figure class="col-12 col-6-lg">
-                        <img src="<?php echo get_public_url("images/linmon-thumbs.png") ?>" alt="Thumbnails of the Linmon Logo">
+                        <img class="glightbox" src="<?php echo get_public_url("images/linmon-thumbs.png") ?>" alt="Thumbnails of the Linmon Logo">
                         <figcaption>Thumbnails of the Linmon logo</figcaption>
                     </figure>
                 </section>
@@ -94,13 +94,13 @@
                         <p>I decided to go with a juicebox container and a glass container for Linmon's beverages. I was able to make these 3D shapes using Adobe Illustrator's 3D tools such as extrude and revolve. After creating the bottle shapes, I created the packaging designs also in Illustrator.</p>
                     </div>
                     <figure class="col-12 col-5-lg">
-                        <img src="<?php echo get_public_url("images/linmon-3d-containers.png") ?>" alt="3D render of the juicebox and glass bottle containers">
+                        <img class="glightbox" src="<?php echo get_public_url("images/linmon-3d-containers.png") ?>" alt="3D render of the juicebox and glass bottle containers">
                         <figcaption>3D render of the juicebox and glass bottle containers</figcaption>
                     </figure>
                 </section>
                 <section class="grid align-items-center">
                     <figure class="linmon-ai-poster col-12 col-6-lg">
-                        <img src="<?php echo get_public_url("images/linmon-ai-poster.jpg") ?>" alt="Linmon Poster depicting a picnic scene where lemon tea drinks are on a picnic table">
+                        <img class="glightbox" src="<?php echo get_public_url("images/linmon-ai-poster.jpg") ?>" alt="Linmon Poster depicting a picnic scene where lemon tea drinks are on a picnic table">
                         <figcaption>Linmon advertisement poster made using Adobe Illustrator</figcaption>
                     </figure>
                     <div class="col-12 col-6-lg">
@@ -114,7 +114,7 @@
                         <p>The same packaging assets were used to create a more realistic marketing poster using Adobe Dimension. This poster would advertise that the drinks could be enjoyed both hot or cold.</p>
                     </div>
                     <figure class="col-12 linmon-dm-poster">
-                        <img src="<?php echo get_public_url("images/linmon-dimension-poster.jpg") ?>" alt="Linmon Poster depicting lemon tea beverages">
+                        <img class="glightbox" src="<?php echo get_public_url("images/linmon-dimension-poster.jpg") ?>" alt="Linmon Poster depicting lemon tea beverages">
                         <figcaption>Linmon advertisement poster made using Adobe Dimension</figcaption>
                     </figure>
                 </section>

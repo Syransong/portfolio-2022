@@ -89,7 +89,7 @@
                 </section>
                 <section class="grid align-items-center">
                     <figure class="col-12 col-6-lg ematcha-thumbnails">
-                        <img src="<?php echo get_public_url("images/ematcha-logo-sketches.jpg") ?>"  alt="Thumbnails of the Emerald Matcha logo">
+                        <img class="glightbox" src="<?php echo get_public_url("images/ematcha-logo-sketches.jpg") ?>"  alt="Thumbnails of the Emerald Matcha logo">
                         <figcaption>Thumbnails of the Emerald Matcha logo</figcaption>
                     </figure>
                     <div class="col-12 col-6-lg">
@@ -116,7 +116,7 @@
                         <p>With the dimensions determined, I created the desings in Adobe Photoshop. I used the deep green, yellow and pink colours to make certain elements pop out in comparison with the rest of the box. For instance, these colours were used to highlight the 3 different blends of matcha in the box.</p>
                     </div>
                     <figure class="col-12 col-7-lg">
-                        <img src="<?php echo get_public_url("images/ematcha-pkging.png") ?>" alt="Top, bottom and side packaging design of the Emerald Matcha 3 tin set">
+                        <img class="glightbox" src="<?php echo get_public_url("images/ematcha-pkging.png") ?>" alt="Top, bottom and side packaging design of the Emerald Matcha 3 tin set">
                         <figcaption>Packaging design for the top, front and side of the box</figcaption>
                     </figure>
                 </section>
@@ -126,7 +126,7 @@
                         <p>The assets were then brought into Adobe After Effects to create a realistic 3D render of the product. Two light sources were added to create depth and realism to the render. The image was then brought into Adobe Photoshop to add a complementary tagline.</p>
                     </div>
                     <figure class="col-12">
-                        <img src="<?php echo get_public_url("images/ematcha-3d-render.jpg") ?>" alt="3D render of the Emerald Matcha 3 tin set with the tagline, rich smooth matcha" class="box-shadow ematcha-render">
+                        <img class="glightbox" src="<?php echo get_public_url("images/ematcha-3d-render.jpg") ?>" alt="3D render of the Emerald Matcha 3 tin set with the tagline, rich smooth matcha" class="box-shadow ematcha-render">
                         <figcaption>3D render of the Emerald Matcha product</figcaption>
                     </figure>
                 </section>
@@ -136,7 +136,7 @@
                         <p>For the stationery set, a business card, letterhead and envelope would be created. I wanted to take elements from the packaging and incorporate some elements in the stationery. To generate ideas, a moodboard and 6 thumbnails were made for each stationery item. The thumbnail that most closely matched the theme of the packaging was chosen to create more detailed roughs. </p>
                     </div>
                     <figure class="col-12">
-                        <img src="<?php echo get_public_url("images/ematcha-thumbs.png") ?>" alt="Thumbnail sketches of the Emerald Matcha business card, envelope and letterhead">
+                        <img class="glightbox" src="<?php echo get_public_url("images/ematcha-thumbs.png") ?>" alt="Thumbnail sketches of the Emerald Matcha business card, envelope and letterhead">
                         <figcaption>Thumbanils of the business card, envelop and letterhead</figcaption>
                     </figure>
                 </section>
@@ -146,7 +146,7 @@
                         <p>After selecting a design from the roughs generated, the final designs were created using Adobe InDesign. Elements from the product packaging design, such as the repeating pattern of the logo, were used to maintain a consistent theme. The designs were then taken into Adobe Dimension to create a 3D mockup. As a result, this created a strong brand identity for Emerlad Matcha.</p>
                     </div>
                     <figure class="col-12">
-                        <img src="<?php echo get_public_url("images/ematcha-mockup.png") ?>" alt="Mockup of Emerald Matcha Stationery set" class="ematcha-stationery">
+                        <img class="glightbox" src="<?php echo get_public_url("images/ematcha-mockup.png") ?>" alt="Mockup of Emerald Matcha Stationery set" class="ematcha-stationery">
                         <figcaption>Mockup of the Emerald Matcha stationery set</figcaption>
                     </figure>
                 </section>

@@ -71,7 +71,7 @@
                 </section>
                 <section class="grid align-items-center">
                     <figure class="rapidish-fig-mock col-12 col-6-lg col-5-xl">
-                        <img src="<?php echo get_public_url('images/rapidish-figma-mockup.jpg')?>" class="box-shadow" alt="Figma mockup of the Rapidish landing page">
+                        <img class="glightbox" src="<?php echo get_public_url('images/rapidish-figma-mockup.jpg')?>" class="box-shadow" alt="Figma mockup of the Rapidish landing page">
                         <figcaption>Landing Page Mockup using Figma</figcaption>
                     </figure>
                     <div class="col-12 col-6-lg col-5-xl">
@@ -102,7 +102,7 @@
                         </ul>
                     </div>
                     <figure class="rapidish-all-mocks col-12">
-                        <img src="<?php echo get_public_url('images/rapidish-all-mockups.jpg')?>" class="box-shadow" alt="Mobile, tablet and desktop view of the Rapidish Landing page">
+                        <img class="glightbox" src="<?php echo get_public_url('images/rapidish-all-mockups.jpg')?>" class="box-shadow" alt="Mobile, tablet and desktop view of the Rapidish Landing page">
                         <figcaption>Mobile, tablet and desktop view</figcaption>
                     </figure>
                     <a href="http://rapidish.karinasong.com" class="col-12 btn live-link" target="_blank" title="View live Rapidish landing page">View Live Page</a>
