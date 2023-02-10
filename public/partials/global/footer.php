@@ -30,3 +30,15 @@
     </ul>
 </footer>
 <script src="<?php echo get_public_url('js/scroll-top.js')?>"></script>
+<?php 
+    if (strpos($_SERVER['REQUEST_URI'], "projects")) {
+        echo '
+            <script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
+            <script type="text/javascript">
+                const lightbox = GLightbox({ zoomable: true });
+            </script>
+        ';
+    } else {
+        echo 'No glightbox script :)';
+    }
+?>

@@ -1,7 +1,15 @@
 @use "../config";
 
-
 .glightbox-clean .gslide-title {
     font-family: config.$primary-fonts;
     margin: 0 auto;
+    color: white;
+}
+
+.glightbox-clean .gslide-description {
+    background: none;
+}
+
+.glightbox-clean .gdesc-inner {
+    padding: 22px 0px;
 }
