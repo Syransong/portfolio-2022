@@ -38,7 +38,5 @@
                 const lightbox = GLightbox({ zoomable: true });
             </script>
         ';
-    } else {
-        echo 'No glightbox script :)';
     }
 ?>
