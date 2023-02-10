@@ -1,0 +1,7 @@
+@use "../config";
+
+
+.glightbox-clean .gslide-title {
+    font-family: config.$primary-fonts;
+    margin: 0 auto;
+}
