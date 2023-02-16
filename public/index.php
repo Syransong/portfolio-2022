@@ -23,7 +23,7 @@
                             <p>A human-centred designer and developer that strives to create accessible and intuitive products. Good design is when you don't have to think about it.</p>
                             <a href="mailto:ksysong@gmail.com" title="Email me" class="btn">Contact Me</a>
                         </div>
-                        <img src="<?php echo get_public_url('/images/banner-img.svg'); ?>" class="col-12 col-12-sm col-12-md col-6-lg" alt="A turquoise arch with a pink circle at the top right corner and a golden star on the bottom left">
+                        <img src="<?php echo get_public_url('/images/placeholder.gif'); ?>" data-src="<?php echo get_public_url('/images/banner-img.svg'); ?>" class="lazy col-12 col-12-sm col-12-md col-6-lg" alt="A turquoise arch with a pink circle at the top right corner and a golden star on the bottom left">
                     </div>
                 </section>
                 <section class="skills">
