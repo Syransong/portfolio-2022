@@ -38,7 +38,7 @@
                                 </li>
                                 <li>
                                     <h3>Systems, CMS & Databases</h3>
-                                    <p>PostgreSQL, Git, MongoDB, Wordpress</p>
+                                    <p>PostgreSQL, MySQL, Git, MongoDB, Wordpress</p>
                                 </li>
                                 <li>
                                     <h3>Testing</h3>
