@@ -25,7 +25,7 @@
                         <p>Tiny Living is a fictional tiny home builder based in Vancouver, BC. In addition to their design and building services, they print a monthly magazine.</p>
                         <p>The objective was to create a magazine cover, a landing page mockup and a banner ad. These assets would showcase the company&apos;s products and  unique brand identity.</p>
                     </div>
-                    <img src="<?php echo get_public_url("/images/tliving-mag-cover.png")?>" alt="Preview of the Tiny Living magazine cover" class="tliving-preview-img col-12">
+                    <img class="lazy tliving-preview-img col-12" src="<?php echo get_public_url('/images/placeholder.svg'); ?>" data-src="<?php echo get_public_url("/images/tliving-mag-cover.png")?>" alt="Preview of the Tiny Living magazine cover" >
                 </section>
                 <section class="project-info">
                     <ul class="grid">
@@ -83,7 +83,9 @@
                         <p>For the logo, I wanted to create a simple logo that represented a tiny house. To do this, I used lines to create a roof and base to imply the shape of a house. The base would include two wheels to represent how many tiny houses are built to be mobile. The window of the tiny house would include a leaf to represent how tiny living is eco-friendly.</p>
                     </div>
                     <figure class="col-12 col-6-lg">
-                        <img class="glightbox" src="<?php echo get_public_url("images/tliving-thumbnails.jpg")?>" alt="Thumbnail sketches of the Tiny Living logo">
+                        <a class="glightbox" href="<?php echo get_public_url("images/tliving-thumbnails.jpg")?>" data-glightbox="title:Thumbnail sketches of the Tiny Living logo">
+                            <img class="lazy" src="<?php echo get_public_url('/images/placeholder.svg'); ?>" data-src="<?php echo get_public_url("images/tliving-thumbnails.jpg")?>" alt="Thumbnail sketches of the Tiny Living logo">
+                        </a>
                         <figcaption>Thumbnails of the Tiny Living Logo</figcaption>
                     </figure>
                 </section>
@@ -95,7 +97,9 @@
                 </section>
                 <section class="grid align-items-center">
                     <figure class="tliving-final-poster col-12 col-6-lg">
-                        <img class="glightbox" src="<?php echo get_public_url("images/tliving-mag-cover.png")?>" class="box-shadow" alt="Final Version of the Tiny Living Cover">
+                        <a class="glightbox" href="<?php echo get_public_url("images/tliving-mag-cover.png")?>" data-glightbox="title:Final Version of the Tiny Living Cover made with InDesign">
+                            <img class="lazy box-shadow" src="<?php echo get_public_url('/images/placeholder.svg'); ?>" data-src="<?php echo get_public_url("images/tliving-mag-cover.png")?>" alt="Final Version of the Tiny Living Cover">
+                        </a>
                         <figcaption>The Tiny Living magazine cover</figcaption>
                     </figure>
                     <div class="col-12 col-6-lg">
@@ -109,13 +113,17 @@
                         <p>For the banner design, I decided to go with a square banner as this type of ad would be commonly seen on the aside section of websites. I wanted to grab people’s attention by making the “Tiny Living Magazine” large and in a bright orange that contrasts with the photo used. There is also a clear CTA to go to the website if consumers are interested in subscribing.</p>
                     </div>
                     <figure class="col-12 col-6-lg">
-                        <img class="glightbox" src="<?php echo get_public_url('images/tliving-banner.jpg')?>" class="box-shadow" alt="Banner ad for Tiny Living where a woman looks out the window of her tiny house towards a snowy forest">
+                        <a class="glightbox" href="<?php echo get_public_url('images/tliving-banner.jpg')?>" data-glightbox="title:Banner ad for the Tiny Living Magazine">
+                            <img class="lazy box-shadow" src="<?php echo get_public_url('/images/placeholder.svg'); ?>" data-src="<?php echo get_public_url('images/tliving-banner.jpg')?>" alt="Banner ad for Tiny Living where a woman looks out the window of her tiny house towards a snowy forest">
+                        </a>
                         <figcaption>Banner ad for Tiny Living</figcaption>
                     </figure>
                 </section>
                 <section class="grid align-items-center">
                     <figure class="tliving-og-landing col-12 col-6-lg">
-                        <img class="glightbox" src="<?php echo get_public_url('images/tliving-og-landing.jpg')?>" class="box-shadow" alt="Original Landing Page design for Tiny Living">
+                        <a class="glightbox" href="<?php echo get_public_url('images/tliving-og-landing.jpg')?>" data-glightbox="title:The Original Landing Page Design made with InDesign">
+                            <img class="lazy" src="<?php echo get_public_url('/images/placeholder.svg'); ?>" data-src="<?php echo get_public_url('images/tliving-og-landing.jpg')?>" class="box-shadow" alt="Original Landing Page design for Tiny Living">
+                        </a>
                         <figcaption>The original landing page made using InDesign</figcaption>
                     </figure>
                     <div class="col-12 col-6-lg">
@@ -123,7 +131,9 @@
                         <p>For this project, we were required to only promote the magazine on the landing page mockup. I decided to redesign the page and that it would promote the magazine along with advertising tiny home building services. I created this mockup in Figma as I wanted to use Figma’s component creation capabilities. For this design, I reserved using the same bright orange for the CTAs as this would help grab users’ attention. </p>
                     </div>
                     <figure class="tliving-new-landing col-12">
-                        <img class="glightbox" src="<?php echo get_public_url('images/tliving-new-landing.jpg')?>" class="box-shadow" alt="Screenshots of the new Tiny Living Landing page">
+                        <a class="glightbox" href="<?php echo get_public_url('images/tliving-new-landing.jpg')?>" data-glightbox="title:High-Fidelity Mockups of the new Tiny Living Landing Page">
+                            <img class="lazy box-shadow" src="<?php echo get_public_url('/images/placeholder.svg'); ?>" data-src="<?php echo get_public_url('images/tliving-new-landing.jpg')?>" alt="Screenshots of the new Tiny Living Landing page">
+                        </a>
                         <figcaption>The updated landing page design using Figma</figcaption>
                     </figure>
                 </section>
