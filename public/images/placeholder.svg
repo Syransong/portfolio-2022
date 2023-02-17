@@ -1,0 +1,63 @@
+<svg width="550" height="550" viewBox="0 0 550 550" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<style>.Rectangle_19_489 {
+	animation: 1.73s linear 0s 1 normal forwards running Rectangle_19_489;
+		opacity: 1;
+}
+@keyframes Rectangle_19_489 {
+	0% {
+		opacity: 1;
+	}
+	43.35% {
+		opacity: 0.5;
+	}
+	72.25% {
+		opacity: 0.5;
+	}
+	100% {
+		opacity: 0.97;
+	}
+}.Star_1_810 {
+	animation: 1.73s linear 0s 1 normal forwards running Star_1_810;
+		opacity: 0.5;
+}
+@keyframes Star_1_810 {
+	0% {
+		opacity: 0.5;
+	}
+	43.35% {
+		opacity: 0.5;
+	}
+	72.25% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0.53;
+	}
+}.Ellipse_161_216 {
+	animation: 1.73s linear 0s 1 normal forwards running Ellipse_161_216;
+		opacity: 0.5;
+}
+@keyframes Ellipse_161_216 {
+	0% {
+		opacity: 0.5;
+	}
+	43.35% {
+		opacity: 1;
+	}
+	86.71% {
+		opacity: 0.5;
+	}
+	100% {
+		opacity: 0.5;
+	}
+}
+</style>
+<g clip-path="url(#clip_0_510)" width="550" height="550" data-name="Frame 1">
+	<rect width="550" height="550" fill="#F0F1F3" data-name="Frame 1"/>
+	<path d="M0.653809 40.1106C0.653809 17.9581 18.6119 0 40.7644 0V0C62.9168 0 80.875 17.9581 80.875 40.1106V80.2212H0.653809V40.1106Z" fill="#319FA9" data-name="Rectangle 19" class="Rectangle_19_489" transform="translate(231.65 235)"/>
+	<path opacity="0.5" d="M39.5 0L47.6787 8.97674L59.25 5.292L61.8446 17.1554L73.708 19.75L70.0233 31.3213L79 39.5L70.0233 47.6787L73.708 59.25L61.8446 61.8446L59.25 73.708L47.6787 70.0233L39.5 79L31.3213 70.0233L19.75 73.708L17.1554 61.8446L5.292 59.25L8.97674 47.6787L0 39.5L8.97674 31.3213L5.292 19.75L17.1554 17.1554L19.75 5.292L31.3213 8.97674L39.5 0Z" fill="#F8A11C" data-name="Star 1" class="Star_1_810" transform="translate(79 236)"/>
+	<ellipse opacity="0.5" rx="39" ry="39.5" fill="#FFA384" data-name="Ellipse 161" class="Ellipse_161_216" transform="translate(431 275.5)"/>
+</g>
+<defs><clipPath id="clip_0_510"><rect width="550" height="550"/></clipPath>
+</defs>
+</svg>

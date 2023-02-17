@@ -23,24 +23,24 @@
                             <p>A human-centred designer and developer that strives to create accessible and intuitive products. Good design is when you don't have to think about it.</p>
                             <a href="mailto:ksysong@gmail.com" title="Email me" class="btn">Contact Me</a>
                         </div>
-                        <img src="<?php echo get_public_url('/images/placeholder.gif'); ?>" data-src="<?php echo get_public_url('/images/banner-img.svg'); ?>" class="lazy col-12 col-12-sm col-12-md col-6-lg" alt="A turquoise arch with a pink circle at the top right corner and a golden star on the bottom left">
+                        <img src="<?php echo get_public_url('/images/placeholder.svg'); ?>" data-src="<?php echo get_public_url('/images/banner-img.svg'); ?>" class="lazy col-12 col-12-sm col-12-md col-6-lg" alt="A turquoise arch with a pink circle at the top right corner and a golden star on the bottom left">
                     </div>
                 </section>
                 <section class="skills">
                     <div class="container">
                         <ul class="grid">
                             <li class="col-12 col-6-md col-4-lg">
-                                <img src="<?php echo get_public_url('/images/gold-star.svg'); ?>" alt="A golden yellow star shape">
+                                <img class="lazy" src="<?php echo get_public_url('/images/placeholder.svg'); ?>" data-src="<?php echo get_public_url('/images/gold-star.svg'); ?>" alt="A golden yellow star shape">
                                 <h3>Web Development</h3>
                                 <p>Trained in full-stack development, I can code and bridge the gap between design and development.</p>
                             </li>
                             <li class="col-12 col-6-md col-4-lg">
-                                <img src="<?php echo get_public_url('/images/turq-door.svg'); ?>" alt="A turquoise door shape">
+                                <img class="lazy" src="<?php echo get_public_url('/images/placeholder.svg'); ?>" data-src="<?php echo get_public_url('/images/turq-door.svg'); ?>" alt="A turquoise door shape">
                                 <h3>Graphic Design</h3>
                                 <p>I am versatile in my ability to communicate a message, from designing a website to creating a strong brand identity.</p>
                             </li>
                             <li class="col-12 col-6-md col-4-lg">
-                                <img src="<?php echo get_public_url('/images/pink-circle.svg'); ?>" alt="A coral pink circle">
+                                <img class="lazy" src="<?php echo get_public_url('/images/placeholder.svg'); ?>" data-src="<?php echo get_public_url('/images/pink-circle.svg'); ?>" alt="A coral pink circle">
                                 <h3>Accessible Design</h3>
                                 <p>My priority is to always have an inclusive mindset as designing for accessibility leads to better designs that benefit everyone.</p>
                             </li>
@@ -53,19 +53,19 @@
                         <h2>Featured Work</h2>
                         <ul class="grid">
                             <li class="col-12 col-6-md col-4-lg small-card">
-                                <img src="<?php echo get_public_url('/images/linmon-square-tn.jpg'); ?>" alt="A mockup up of a glass bottle and a juicebox of Linmon Lemon tea">
+                                <img class="lazy" src="<?php echo get_public_url('/images/placeholder.svg'); ?>" data-src="<?php echo get_public_url('/images/linmon-square-tn.jpg'); ?>" alt="A mockup up of a glass bottle and a juicebox of Linmon Lemon tea">
                                 <h3>Linmon</h3>
                                 <p>Product Design, Brand Identity</p>
                                 <a href="<?php echo get_public_url('/projects/linmon.php');?>">View Project &rarr;</a>
                             </li>
                             <li class="col-12 col-6-md col-4-lg small-card">
-                                <img src="<?php echo get_public_url('/images/ematcha-square-tn.jpg'); ?>" alt="Mockup of the Emerald Matcha stationery set">
+                                <img class="lazy" src="<?php echo get_public_url('/images/placeholder.svg'); ?>" data-src="<?php echo get_public_url('/images/ematcha-square-tn.jpg'); ?>" alt="Mockup of the Emerald Matcha stationery set">
                                 <h3>Emerald Matcha</h3>
                                 <p>Product Design, Brand Identity</p>
                                 <a href="<?php echo get_public_url('/projects/ematcha.php');?>">View Project &rarr;</a>
                             </li>
                             <li class="col-12 col-6-md col-4-lg small-card">
-                                <img src="<?php echo get_public_url('/images/tliving-square-tn.jpg'); ?>" alt="Preview of Tiny Living's landing page">
+                                <img class="lazy" src="<?php echo get_public_url('/images/placeholder.svg'); ?>" data-src="<?php echo get_public_url('/images/tliving-square-tn.jpg'); ?>" alt="Preview of Tiny Living's landing page">
                                 <h3>Tiny Living</h3>
                                 <p>Print Design, Web Design</p>
                                 <a href="<?php echo get_public_url('/projects/tliving.php');?>">View Project &rarr;</a>
