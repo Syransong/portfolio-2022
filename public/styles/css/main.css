@@ -941,6 +941,10 @@ Media Queries
   padding: 22px 0px;
 }
 
+.glightbox-container .gslide-inner-content {
+  max-width: 90%;
+}
+
 @media screen and (min-width: 576px) {
   .col-1-sm {
     grid-column: span 1;

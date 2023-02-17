@@ -35,7 +35,9 @@
         echo '
             <script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
             <script type="text/javascript">
-                const lightbox = GLightbox({ zoomable: true });
+                const lightbox = GLightbox({ 
+                    zoomable: true,
+                });
             </script>
         ';
     }
