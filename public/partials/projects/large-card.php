@@ -1,5 +1,5 @@
 <div class="large-card d-flex">
-    <img src="<?php echo get_public_url('images/') . $project->large_img_url; ?>" alt="<?php echo $project->alt ?>">
+    <img class="lazy" src="<?php echo get_public_url('/images/placeholder.svg'); ?>" data-src="<?php echo get_public_url('images/') . $project->large_img_url; ?>" alt="<?php echo $project->alt ?>">
     <div class="large-card-info">
         <ul class="d-flex">
             <?php 
