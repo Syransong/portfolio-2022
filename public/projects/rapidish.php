@@ -23,7 +23,7 @@
                         <p>Rapidish is a fictional meal kit delivery company.</p>
                         <p>The purpose of this project was to showcase a mobile-first and responsive web design approach. This was done by creating a landing page with multiple breakpoints and incorporating 3 jQuery plugins.</p>
                     </div>
-                    <img src="<?php echo get_public_url('images/rapidish-phone-mockup.png')?>" class="rapidish-mobile col-12 col-6-lg" alt="Mobile view of the Rapidish landing page">
+                    <img src="<?php echo get_public_url('/images/placeholder.svg'); ?>" data-src="<?php echo get_public_url('images/rapidish-phone-mockup.png')?>" class="lazy rapidish-mobile col-12 col-6-lg" alt="Mobile view of the Rapidish landing page">
                 </section>
                 <section class="project-info">
                     <ul class="grid">
@@ -71,7 +71,9 @@
                 </section>
                 <section class="grid align-items-center">
                     <figure class="rapidish-fig-mock col-12 col-6-lg col-5-xl">
-                        <img class="glightbox" src="<?php echo get_public_url('images/rapidish-figma-mockup.jpg')?>" class="box-shadow" alt="Figma mockup of the Rapidish landing page">
+                        <a class="glightbox" href="<?php echo get_public_url('images/rapidish-figma-mockup.jpg')?>" data-glightbox="title:Figma mockup of the Rapidish landing page">
+                            <img class="lazy box-shadow" src="<?php echo get_public_url('/images/placeholder.svg'); ?>" data-src="<?php echo get_public_url('images/rapidish-figma-mockup.jpg')?>" alt="Figma mockup of the Rapidish landing page">
+                        </a>
                         <figcaption>Landing Page Mockup using Figma</figcaption>
                     </figure>
                     <div class="col-12 col-6-lg col-5-xl">
@@ -102,7 +104,9 @@
                         </ul>
                     </div>
                     <figure class="rapidish-all-mocks col-12">
-                        <img class="glightbox" src="<?php echo get_public_url('images/rapidish-all-mockups.jpg')?>" class="box-shadow" alt="Mobile, tablet and desktop view of the Rapidish Landing page">
+                        <a class="glightbox" href="<?php echo get_public_url('images/rapidish-all-mockups.jpg')?>" data-glightbox="title:Mobile, tablet and desktop view of the Rapidish Landing page">
+                            <img class="lazy box-shadow" src="<?php echo get_public_url('/images/placeholder.svg'); ?>" data-src="<?php echo get_public_url('images/rapidish-all-mockups.jpg')?>" alt="Mobile, tablet and desktop view of the Rapidish Landing page">
+                        </a>
                         <figcaption>Mobile, tablet and desktop view</figcaption>
                     </figure>
                     <a href="http://rapidish.karinasong.com" class="col-12 btn live-link" target="_blank" title="View live Rapidish landing page">View Live Page</a>

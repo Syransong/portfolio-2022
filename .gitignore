@@ -1,5 +1,4 @@
 .DS_Store
 
-# Ignore auto-generated styling files 
-public/styles/css/main.css
-public/styles/css/main.min.css
+# Ignore auto-generated styling files
+public/styles/css/
