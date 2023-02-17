@@ -89,7 +89,9 @@
                 </section>
                 <section class="grid align-items-center">
                     <figure class="col-12 col-6-lg ematcha-thumbnails">
-                        <img class="glightbox lazy" src="<?php echo get_public_url('/images/placeholder.svg'); ?>" data-src="<?php echo get_public_url("images/ematcha-logo-sketches.jpg") ?>"  alt="Thumbnails of the Emerald Matcha logo">
+                        <a class="glightbox" href="<?php echo get_public_url("images/ematcha-logo-sketches.jpg") ?>" data-glightbox="title: Thumbnails of the Emerald Matcha logo">
+                            <img class="lazy" src="<?php echo get_public_url('/images/placeholder.svg'); ?>" data-src="<?php echo get_public_url("images/ematcha-logo-sketches.jpg") ?>" alt="">
+                        </a>
                         <figcaption>Thumbnails of the Emerald Matcha logo</figcaption>
                     </figure>
                     <div class="col-12 col-6-lg">
