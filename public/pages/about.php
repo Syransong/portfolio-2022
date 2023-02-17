@@ -15,7 +15,7 @@
             <main class="page-content">
                 <section class="about-intro m-top p-top">
                     <div class="container grid">
-                        <img src="<?php echo get_public_url('/images/ksong-pfp.jpg')?>" class="col-12 col-6-lg" alt="Picture of Karina Song looking up">
+                        <img class="lazy col-12 col-6-lg" src="<?php echo get_public_url('/images/placeholder.svg'); ?>" data-src="<?php echo get_public_url('/images/ksong-pfp.jpg')?>" alt="Picture of Karina Song looking up">
                         <div class="about-info col-12 col-6-lg">
                             <h1>About Me</h1>
                             <p>Full-stack web developer and designer pivoting from Quality Assurance in the food industry. My love of the web development and design world started with a UX course and ran from there. I loved getting wrapped up in everything from working through a bug to moving a pixel by one space.</p>
@@ -87,7 +87,7 @@
                 </section>
                 <section class="hobbies">
                     <div class="container grid">
-                        <img src="<?php echo get_public_url('/images/about-doll.svg')?>" class="col-12 col-4-md col-6-lg" alt="Graphic of a turquoise arch with a golden star at the top and a pink semi-circle on the bottom">
+                        <img class="lazy col-12 col-4-md col-6-lg" src="<?php echo get_public_url('/images/placeholder.svg'); ?>" data-src="<?php echo get_public_url('/images/about-doll.svg')?>"  alt="Graphic of a turquoise arch with a golden star at the top and a pink semi-circle on the bottom">
                         <div class="hobby-info align-items-center col-12 col-8-md col-6-lg">
                             <h2>In my spare time, I would be...</h2>
                             <ul>
