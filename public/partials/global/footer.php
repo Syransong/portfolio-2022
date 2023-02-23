@@ -1,5 +1,5 @@
 <footer class="d-flex" id="footer">
-    <a id="scroll-top" title="Back to Top" href="#"></a>
+    <button id="scroll-top" title="Back to Top"></button>
     <p>&copy; Karina Song 2022</p>
     <ul class="d-flex">
         <li>
