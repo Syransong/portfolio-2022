@@ -30,6 +30,7 @@
     </ul>
 </footer>
 <script src="<?php echo get_public_url('js/scroll-top.js')?>"></script>
+<script src="<?php echo get_public_url('js/hamburger-menu.js')?>"></script>
 <?php 
     if (strpos($_SERVER['REQUEST_URI'], "projects")) {
         echo '
