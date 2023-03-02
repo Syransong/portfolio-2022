@@ -9,8 +9,19 @@
         'project_url' => 'rapidish.php'
     ]);
 
+    $ac_api = new Project([
+        'name' => 'Animal Crossing API Project',
+        'square_img_url' => 'ac-api-square-tn.jpg',
+        'large_img_url' => 'ac-api-large-tn.jpg',
+        'alt' => 'A screenshot preview of the Animal Crossing API Call app',
+        'description' => 'This page makes API calls to the Nookpedia API to show some information about villagers from the Animal Crossing game. Users can also filter for certain species.',
+        'tags' => ['Front-end', 'Back-end'],
+        'project_url' => 'ac-api.php'
+    ]);
+
     $dev_projects = [
-        $rapidish
+        $rapidish,
+        $ac_api
     ];
 
 ?>
