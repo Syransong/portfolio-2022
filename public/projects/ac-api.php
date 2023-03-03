@@ -54,7 +54,7 @@
                         <li class="col-12 col-4-lg">
                             <p class="num1">01</p>
                             <h3>Research</h3>
-                            <p>Rearch APIs and read documentation</p>
+                            <p>Research APIs and read documentation</p>
                         </li>
                         <li class="col-12 col-4-lg">
                             <p class="num2">02</p>
