@@ -20,10 +20,11 @@
                             <li>Back-End</li>
                         </ul>
                         <h1>Animal Crossing API Project</h1>
-                        <p></p>
+                        <p>This project demonstrates the ability to connect to a 3rd-party API and to request data to display on a webpage. A connection was made to the Nookpedia API and the page displays character data and filtering functionality. </p>
                     </div>
                 </section>
                 <section class="project-info">
+                    <h2>Breakdown</h2>
                     <ul class="grid">
                         <li class="col-6 col-3-lg">
                             <h3>Date</h3>
@@ -38,8 +39,7 @@
                             <h4>Languages</h4>
                             <p>HTML, CSS, Javascript</p>
                             <h4>Libraries</h4>
-                            <p>jQuery</p>
-                            <p>Ajax</p>
+                            <p>jQuery, Ajax</p>
                         </li>
                         <li class="col-6 col-3-lg">
                             <h3>Deliverables</h3>
@@ -64,27 +64,45 @@
                         <li class="col-12 col-4-lg">
                             <p class="num3">03</p>
                             <h3>Code</h3>
-                            <p>Dynamically create villager cards and filtering functionality</p>
+                            <p>Create dynamic villager cards and filtering functionality</p>
                         </li>
                     </ul>
                 </section>
                 <section class="grid align-items-center">
-                    <div class="col-12 col-6-lg col-5-xl">
+                    <div class="col-12 col-10-lg">
                         <h2>Researching APIs and Documentation</h2>
+                        <p>I first looked for public APIs that I could potentially use for this project. I came across the Nookpedia Animal Crossing API. Animal Crossing is a life simulation video game where a player can interact with many animal villagers. I selected this API for this project as they provide multiple endpoints and options to filter, such as by a villager’s personality or species.</p>
                     </div>
                 </section>
                 <section class="grid">
                     <div class="col-12 col-10-lg">
                         <h2>Planning the Page</h2>
+                        <p>Using Postman, I examined the data object retrieved from a GET request to their villagers endpoint. The object contained information about each villager, such as their species, personality, birthday and catchphrase. I decided to display this information in a card format for each villager. On the page, the user will be able to see 6 villager cards. There is a "Load More" button at the bottom of the page if the user wishes to see more villagers. Users would also have the option to filter the villagers by their species.</p>
                     </div>
                 </section>
                 <section class="grid">
                     <div class="col-12 col-10-lg">
                         <h2>Coding</h2>
+                        <p>Features of this page include:</p>
+                        <ul class="bul-list">
+                            <li>Dynamically created cards that display information about Animal Crossing villagers</li>
+                            <li>Filter villagers by species</li>
+                            <li>A spinner displays while the API request is processing </li>
+                        </ul>
+                        <p>Using fetch, the specific endpoint used to retrieve all the villager data is as follows:</p>
+                        <code>https://api.nookipedia.com/villagers?api_key=[API_KEY] </code>
+                        <p>This endpoint retrieves all 488 villagers data in an array and this API does not provide the option to limit the number of villagers retrieved. As a result, to only show 6 entries at a time, the villager array was sliced with the slice() method. If the “Load More” button is clicked, it would increase the end argument by 6 (ex. slice(0, 12)). </p>
+                        <p>For the filter function, the endpoint is:</p>
+                        <code>https://api.nookipedia.com/villagers?api_key=[API_KEY]&species=[SPECIES]</code>
+                        <p>I added an event listener for the filter buttons. Upon click, it would retrieve and store the text content of that button in a variable. Then this variable would be used as an additional query parameter to the endpoint.</p>
+                        <iframe src="https://ac-api-call.syransong.repl.co?embed=true" width="600" height="400"></iframe>
+                    </div>
                 </section>
                 <section class="grid">
                     <div class="col-12 col-10-lg">
                         <h2>Conclusion & Next Steps</h2>
+                        <p>After doing this project, I feel less intimidated by back-end development topics like making and handling API requests. When I first learned about making asynchronous API requests, I had a hard time wrapping my head around chaining promises and handling the JSON response object. This simple project served as a good refresher and I’m eager to revisit and learn more topics. For instance, I can rework this project to use Axios to make the HTTP request so I can better understand the differences between Axios and fetch.</p>
+                        <p>You can take a closer look at the code on <a href="https://github.com/Syransong/ac-api-call" title="Got to project on Github" target="_blank">Github</a> or <a href="https://ac-api-call.syransong.repl.co" title="Go to Animal Crossing Project on Replit" target="_blank">Replit</a>. </p>
                     </div>
                 </section>
                 <a href="<?php echo get_public_url("pages/dev.php"); ?>" class="btn more-proj">More Projects</a>
