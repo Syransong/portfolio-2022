@@ -22,6 +22,7 @@
                         <h1>Animal Crossing API Project</h1>
                         <p>This project demonstrates the ability to connect to a 3rd-party API and to request data to display on a webpage. A connection was made to the Nookpedia API and the page displays character data and filtering functionality. </p>
                     </div>
+                    <img src="<?php echo get_public_url('/images/placeholder.svg'); ?>" data-src="<?php echo get_public_url('images/ac-web-preview.png')?>" class="lazy ac-preview col-12 col-6-lg" alt="Web preview of the Animal Crossing API project">
                 </section>
                 <section class="project-info">
                     <h2>Breakdown</h2>
@@ -75,10 +76,16 @@
                     </div>
                 </section>
                 <section class="grid">
-                    <div class="col-12 col-10-lg">
+                    <div class="col-12 col-6-lg">
                         <h2>Planning the Page</h2>
                         <p>Using Postman, I examined the data object retrieved from a GET request to their villagers endpoint. The object contained information about each villager, such as their species, personality, birthday and catchphrase. I decided to display this information in a card format for each villager. On the page, the user will be able to see 6 villager cards. There is a "Load More" button at the bottom of the page if the user wishes to see more villagers. Users would also have the option to filter the villagers by their species.</p>
                     </div>
+                    <figure class="col-12 col-6-lg">
+                        <a class="glightbox" href="<?php echo get_public_url('images/ac-json-obj.png')?>" data-glightbox="title:Screenshot of the JSON Data of the Animal Crossing villager, Kyle, using Postman">
+                            <img class="lazy box-shadow" src="<?php echo get_public_url('/images/placeholder.svg'); ?>" data-src="<?php echo get_public_url('images/ac-json-obj.png')?>" alt="Screenshot of the JSON Data of the Animal Crossing villager, Kyle, using Postman">
+                        </a>
+                        <figcaption>JSON Data Object Retrieved Using Postman</figcaption>
+                    </figure>
                 </section>
                 <section class="grid">
                     <div class="col-12 col-10-lg">
@@ -89,13 +96,11 @@
                             <li>Filter villagers by species</li>
                             <li>A spinner displays while the API request is processing </li>
                         </ul>
-                        <p>Using fetch, the specific endpoint used to retrieve all the villager data is as follows:</p>
-                        <code>https://api.nookipedia.com/villagers?api_key=[API_KEY] </code>
+                        <p>Using fetch, the specific endpoint used to retrieve all the villager data is as follows:<br><code>https://api.nookipedia.com/villagers?api_key=[API_KEY] </code></p>
                         <p>This endpoint retrieves all 488 villagers data in an array and this API does not provide the option to limit the number of villagers retrieved. As a result, to only show 6 entries at a time, the villager array was sliced with the slice() method. If the “Load More” button is clicked, it would increase the end argument by 6 (ex. slice(0, 12)). </p>
-                        <p>For the filter function, the endpoint is:</p>
-                        <code>https://api.nookipedia.com/villagers?api_key=[API_KEY]&species=[SPECIES]</code>
+                        <p>For the filter function, the endpoint is:<br><code>https://api.nookipedia.com/villagers?api_key=[API_KEY]&species=[SPECIES]</code></p>
                         <p>I added an event listener for the filter buttons. Upon click, it would retrieve and store the text content of that button in a variable. Then this variable would be used as an additional query parameter to the endpoint.</p>
-                        <iframe src="https://ac-api-call.syransong.repl.co?embed=true" width="600" height="400"></iframe>
+                        <iframe src="https://ac-api-call.syransong.repl.co?embed=true" width="300" height="400"></iframe>
                     </div>
                 </section>
                 <section class="grid">

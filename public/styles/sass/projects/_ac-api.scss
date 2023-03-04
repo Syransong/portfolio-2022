@@ -1,0 +1,6 @@
+@use "../config";
+
+.ac-preview {
+    border-radius: 0px 0px 10px 10px;
+    filter: drop-shadow(6px 10px 8px rgba(50, 50, 93, 0.25))
+}

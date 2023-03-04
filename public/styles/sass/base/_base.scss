@@ -15,6 +15,10 @@ section {
     padding: 4rem 1rem;
 }
 
+.bul-list {
+    margin-bottom: 1rem;
+}
+
 .bul-list li::before {
     content: "\2022";
     color: config.$turquoise;
