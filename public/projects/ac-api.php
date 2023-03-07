@@ -100,14 +100,14 @@
                         <p>This endpoint retrieves all 488 villagers data in an array and this API does not provide the option to limit the number of villagers retrieved. As a result, to only show 6 entries at a time, the villager array was sliced with the slice() method. If the “Load More” button is clicked, it would increase the end argument by 6 (ex. slice(0, 12)). </p>
                         <p>For the filter function, the endpoint is:<br><code>https://api.nookipedia.com/villagers?api_key=[API_KEY]&species=[SPECIES]</code></p>
                         <p>I added an event listener for the filter buttons. Upon click, it would retrieve and store the text content of that button in a variable. Then this variable would be used as an additional query parameter to the endpoint.</p>
-                        <iframe src="https://ac-api-call.syransong.repl.co?embed=true" width="300" height="400"></iframe>
+                        <!-- <iframe class="ac-replit" src="https://ac-api-call.syransong.repl.co?embed=true" width="300" height="400"></iframe> -->
                     </div>
                 </section>
                 <section class="grid">
                     <div class="col-12 col-10-lg">
                         <h2>Conclusion & Next Steps</h2>
                         <p>After doing this project, I feel less intimidated by back-end development topics like making and handling API requests. When I first learned about making asynchronous API requests, I had a hard time wrapping my head around chaining promises and handling the JSON response object. This simple project served as a good refresher and I’m eager to revisit and learn more topics. For instance, I can rework this project to use Axios to make the HTTP request so I can better understand the differences between Axios and fetch.</p>
-                        <p>You can take a closer look at the code on <a class="ex-link" href="https://github.com/Syransong/ac-api-call" title="Got to project on Github" target="_blank">Github</a> or <a class="ex-link" href="https://ac-api-call.syransong.repl.co" title="Go to Animal Crossing Project on Replit" target="_blank">Replit</a>. </p>
+                        <p>You can take a closer look at the code on <a class="ex-link" href="https://github.com/Syransong/ac-api-call" title="Got to project on Github" target="_blank">Github</a> or <a class="ex-link" href="https://replit.com/@Syransong/ac-api-call?v=1" title="Go to Animal Crossing Project on Replit" target="_blank">Replit</a>. </p>
                     </div>
                 </section>
                 <a href="<?php echo get_public_url("pages/dev.php"); ?>" class="btn more-proj">More Projects</a>
