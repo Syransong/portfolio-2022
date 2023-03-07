@@ -1,5 +1,9 @@
 @use "../config";
 
+.ex-link {
+    color: #277E86;
+}
+
 /*----------------------------------
 Project banner
 ----------------------------------*/
@@ -48,6 +52,14 @@ figure:hover {
 .project-info h4 {
     font-size: 1.2rem;
 }
+
+/*----------------------------------
+Project info
+----------------------------------*/
+.project-info h3 {
+    font-size: 1.4rem;
+}
+
 
 // Project Summary 
 

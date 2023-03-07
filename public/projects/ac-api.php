@@ -107,7 +107,7 @@
                     <div class="col-12 col-10-lg">
                         <h2>Conclusion & Next Steps</h2>
                         <p>After doing this project, I feel less intimidated by back-end development topics like making and handling API requests. When I first learned about making asynchronous API requests, I had a hard time wrapping my head around chaining promises and handling the JSON response object. This simple project served as a good refresher and I’m eager to revisit and learn more topics. For instance, I can rework this project to use Axios to make the HTTP request so I can better understand the differences between Axios and fetch.</p>
-                        <p>You can take a closer look at the code on <a href="https://github.com/Syransong/ac-api-call" title="Got to project on Github" target="_blank">Github</a> or <a href="https://ac-api-call.syransong.repl.co" title="Go to Animal Crossing Project on Replit" target="_blank">Replit</a>. </p>
+                        <p>You can take a closer look at the code on <a class="ex-link" href="https://github.com/Syransong/ac-api-call" title="Got to project on Github" target="_blank">Github</a> or <a class="ex-link" href="https://ac-api-call.syransong.repl.co" title="Go to Animal Crossing Project on Replit" target="_blank">Replit</a>. </p>
                     </div>
                 </section>
                 <a href="<?php echo get_public_url("pages/dev.php"); ?>" class="btn more-proj">More Projects</a>
