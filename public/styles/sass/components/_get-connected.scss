@@ -15,7 +15,7 @@ Get Connected
 
 .soc-med {
     justify-content: space-evenly;
-    width: 100%;
+    // width: 100%;
 }
 
 .soc-med .black {
@@ -40,7 +40,7 @@ Media Queries
         gap: 0.5rem;
     }
 
-    .soc-med {
+    .connect .soc-med {
         gap: 1rem;
         justify-content: start;
     }
