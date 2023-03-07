@@ -21,7 +21,7 @@
                         <li><a href="#">Full-stack</a></li>
                     </ul>
             </section>
-            <section class="project-list">
+            <section class="project-list d-flex">
                 <?php foreach($dev_projects as $project): ?>
                     <?php include(get_project_path('public/partials/projects/large-card.php')); ?>
                 <?php endforeach; ?>
