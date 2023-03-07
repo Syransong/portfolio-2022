@@ -71,7 +71,7 @@
                 </section>
                 <section class="grid align-items-center">
                     <div class="col-12 col-10-lg">
-                        <h2>Researching APIs and Documentation</h2>
+                        <h2>Researching APIs</h2>
                         <p>I first looked for public APIs that I could potentially use for this project. I came across the Nookpedia Animal Crossing API. Animal Crossing is a life simulation video game where a player can interact with many animal villagers. I selected this API for this project as they provide multiple endpoints and options to filter, such as by a villager’s personality or species.</p>
                     </div>
                 </section>
