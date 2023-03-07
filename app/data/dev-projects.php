@@ -19,9 +19,20 @@
         'project_url' => 'ac-api.php'
     ]);
 
+    $react_todo = new Project([
+        'name' => 'React To-do App',
+        'square_img_url' => 'todo-square-tn.jpg',
+        'large_img_url' => 'todo-large-tn.jpg',
+        'alt' => 'A screenshot preview of the To-do App with both Light and Dark mode',
+        'description' => 'This project is a simple to-do app made with React. Users can create, edit and delete tasks, as well customize the app’s appearance. The purpose of creating this project was to review the React library and its core principles.',
+        'tags' => ['Back-end'],
+        'project_url' => 'react-todo.php'
+    ]);
+
     $dev_projects = [
         $rapidish,
-        $ac_api
+        $ac_api,
+        $react_todo
     ];
 
 ?>
