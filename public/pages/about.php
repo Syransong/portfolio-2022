@@ -13,8 +13,8 @@
         <div>
             <?php require(get_project_path('public/partials/global/header.php')); ?>
             <main class="page-content">
-                <section class="about-intro m-top p-top">
-                    <div class="container grid">
+                <section class="m-top p-top">
+                    <div class="about-intro container grid">
                         <img class="lazy col-12 col-6-lg" src="<?php echo get_public_url('/images/placeholder.svg'); ?>" data-src="<?php echo get_public_url('/images/ksong-pfp.jpg')?>" alt="Picture of Karina Song looking up">
                         <div class="about-info col-12 col-6-lg">
                             <h1>About Me</h1>
@@ -85,8 +85,8 @@
                         </div>
                     </div>
                 </section>
-                <section class="hobbies">
-                    <div class="container grid">
+                <section>
+                    <div class="hobbies container grid">
                         <img class="lazy col-12 col-4-md col-6-lg" src="<?php echo get_public_url('/images/placeholder.svg'); ?>" data-src="<?php echo get_public_url('/images/about-doll.svg')?>"  alt="Graphic of a turquoise arch with a golden star at the top and a pink semi-circle on the bottom">
                         <div class="hobby-info align-items-center col-12 col-8-md col-6-lg">
                             <h2>In my spare time, I would be...</h2>
