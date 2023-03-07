@@ -4,8 +4,11 @@
 Footer
 ----------------------------------*/
 footer {
-    flex-direction: column;
     background-color: config.$turquoise;
+}
+
+.footer {
+    flex-direction: column;
     padding: 1.5rem 1rem;
     justify-content: space-between;
     align-items: center;
@@ -34,14 +37,8 @@ Media Queries
 ----------------------------------*/
 
 @media screen and (min-width: 1024px) {
-    footer {
+    .footer {
         flex-direction: row;
-        padding: 1.5rem 50px;
-    }
-}
-
-@media screen and (min-width: 2560px) {
-    footer {
-        padding: 1.5rem 30rem;
+        // padding: 1.5rem 50px;
     }
 }
