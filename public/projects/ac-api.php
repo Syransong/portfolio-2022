@@ -45,7 +45,6 @@
                         <li class="col-6 col-3-lg">
                             <h3>Deliverables</h3>
                             <p>Landing Page Code</p>
-                            <p>High-fidelity Mockup</p>
                         </li>
                     </ul>
                 </section>
