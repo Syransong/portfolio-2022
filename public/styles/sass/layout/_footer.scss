@@ -6,7 +6,7 @@ Footer
 footer {
     flex-direction: column;
     background-color: config.$turquoise;
-    padding: 1.5rem 2rem;
+    padding: 1.5rem 30px;
     justify-content: space-between;
     align-items: center;
     color: config.$white;
@@ -20,7 +20,7 @@ footer img {
 }
 
 footer ul {
-    gap: 1rem;
+    // gap: 1rem;
 }
 
 footer p {

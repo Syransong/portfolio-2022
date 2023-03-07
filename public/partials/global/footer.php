@@ -1,7 +1,7 @@
 <footer class="d-flex" id="footer">
     <button id="scroll-top" title="Back to Top"></button>
     <p>&copy; Karina Song 2022</p>
-    <ul class="d-flex">
+    <ul class="d-flex soc-med">
         <li>
             <a href="mailto:ksysong@gmail.com" title="Email me">
                 <img class="lazy" src="<?php echo get_public_url('/images/placeholder.svg'); ?>" data-src="<?php echo get_public_url('/images/email-icon.svg'); ?>" alt="Email Icon">

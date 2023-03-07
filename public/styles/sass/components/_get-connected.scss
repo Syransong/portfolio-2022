@@ -15,6 +15,7 @@ Get Connected
 
 .soc-med {
     justify-content: space-evenly;
+    width: 100%;
 }
 
 .soc-med .black {
@@ -50,11 +51,11 @@ Media Queries
         width: 50%;
     }
 
-    .soc-med li {
+    .connect .soc-med li {
         transition: 0.3s;
     }
 
-    .soc-med li:hover {
+    .connect .soc-med li:hover {
         transform: translate(0, -5px);
     }
 
