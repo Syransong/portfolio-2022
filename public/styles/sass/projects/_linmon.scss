@@ -28,3 +28,9 @@ Media Queries
         max-width: 1000px;
     }
 }
+
+@media screen and (min-width: 1400px) {
+    .linmon-ai-poster {
+        max-width: 100%;
+    }
+}
