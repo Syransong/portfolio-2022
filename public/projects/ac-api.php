@@ -99,7 +99,7 @@
                         <p>This endpoint retrieves all 488 villagers data in an array and this API does not provide the option to limit the number of villagers retrieved. As a result, to only show 6 entries at a time, the villager array was sliced with the slice() method. If the “Load More” button is clicked, it would increase the end argument by 6 (ex. slice(0, 12)). </p>
                         <p>For the filter function, the endpoint is:<br><code>https://api.nookipedia.com/villagers?api_key=[API_KEY]&species=[SPECIES]</code></p>
                         <p>I added an event listener for the filter buttons. Upon click, it would retrieve and store the text content of that button in a variable. Then this variable would be used as an additional query parameter to the endpoint.</p>
-                        <!-- <iframe class="ac-replit" src="https://ac-api-call.syransong.repl.co?embed=true" width="300" height="400"></iframe> -->
+                        <iframe class="ac-replit" src="https://ac-api-call.syransong.repl.co?embed=true" width="300" height="400"></iframe>
                     </div>
                 </section>
                 <section class="grid">

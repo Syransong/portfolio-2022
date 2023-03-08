@@ -17,6 +17,8 @@ section {
 
 .bul-list {
     margin-bottom: 1rem;
+    text-indent: -28px;
+    padding-left: 28px;
 }
 
 .bul-list li::before {
@@ -24,7 +26,8 @@ section {
     color: config.$turquoise;
     font-weight: bold;
     display: inline-block; 
-    width: 1.5em;
+    width: 0.5em;
+    padding-left: 28px;
 }
 
 a:focus {

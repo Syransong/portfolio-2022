@@ -82,17 +82,26 @@
                     </div>
                 </section>
                 <section>
-                    <div class="grid container">
-                        <div class="col-12 col-10-lg">
-                            <h2>Coding</h2>
-                            <p>Features of this page include:</p>
-                            <ul class="bul-list">
-                                <li>Create, edit and delete tasks</li>
-                                <li>A colour picker to customize the app's buttons and other UI elements</li>
-                                <li>A dark and light mode toggle</li>
-                                <li>Saves settings and tasks to local storage</li>
-                                <li>A real-time clock</li>
-                            </ul>
+                    <div class="container">
+                        <h2>Coding</h2>
+                        <div class="grid">
+                            <figure class="col-12 col-6-lg">
+                                <a class="glightbox" href="<?php echo get_public_url('images/todo-preview.png')?>" data-glightbox="title:Desktop mockups of light mode and dark mode of the To-App">
+                                    <img class="lazy box-shadow" src="<?php echo get_public_url('/images/placeholder.svg'); ?>" data-src="<?php echo get_public_url('images/todo-preview.jpg')?>" alt="Desktop mockups of light mode and dark mode of the To-App">
+                                </a>
+                                <figcaption>To-do App: Light Mode and Dark Mode Preview</figcaption>
+                            </figure>
+                            <div class="col-12 col-6-lg">
+                                <p>Features of this page include:</p>
+                                <ul class="bul-list">
+                                    <li>Create, edit and delete tasks</li>
+                                    <li>A colour picker to customize the app's buttons and other UI elements</li>
+                                    <li>A dark and light mode toggle</li>
+                                    <li>Saves settings and tasks to local storage</li>
+                                    <li>A real-time clock</li>
+                                </ul>
+                            </div>
+                        </div>
                             <p>I coded along with the video tutorial and stopped whenever I wanted to review a topic. For instance, I struggled in the past understanding the purpose of the useEffect hook. This concept was clarified once the tutorial covered the use of this hook when building the Theme Switcher component. This component controls the appearance of the app, based on the user’s choice of light or dark mode, or the colour of theme. The code below shows the useEffect hook controlling the light or dark mode. </p>
                             <img class="lazy todo-code-snippet" src="<?php echo get_public_url('/images/placeholder.svg'); ?>" data-src="<?php echo get_public_url('images/todo-code-snippet.png')?>" alt="Screenshot of the useEffect hook code">
                             <p>This useEffect hook was needed as we need to perform a “side-effect” which is outside of the React project itself. In this case, the DOM has to be directly updated to change the app’s appearance based on the user’s choice of light or dark mode. The “theme” state is passed in as a dependency and will trigger a re-render when the state changes. </p>
