@@ -1,12 +1,9 @@
 @use "../config";
 
-.tliving-preview-img {
-    height: auto;
-    width: 80%;
-    object-fit: cover;
-    margin: 0 auto;
-    top: 20%;
-    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+.tliving-web-preview {
+    border-radius: 0px 0px 10px 10px;
+    filter: drop-shadow(6px 10px 8px rgba(50, 50, 93, 0.25));
+    width: 100%;
 }
 
 .tliving-final-poster {
@@ -29,19 +26,7 @@
 Media Queries
 ----------------------------------*/
 
-@media screen and (min-width: 768px) {
-    .tliving-preview-img {
-        width: 50%;
-    }
-}
-
 @media screen and (min-width: 1024px) {
-    .tliving-preview-img {
-        position: absolute;
-        width: 100%;
-        top: 20%;
-        grid-column: 7 / 12;
-    }
 
     .tliving-final-poster {
         order: -2;
