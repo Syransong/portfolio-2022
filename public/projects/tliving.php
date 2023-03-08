@@ -13,19 +13,21 @@
         <div class="project-page">
         <?php require(get_project_path('public/partials/global/header.php')); ?>
             <main class="tliving">
-                <section class="project-bnr m-top p-top grid">
-                    <div class="proj-bnr-info col-12 col-6-lg">
-                        <ul class="d-flex">
-                            <li>Print</li>
-                            <li>Web</li>
-                            <li>Logo</li>
-                            <li>Brand Identity</li>
-                        </ul>
-                        <h1>Tiny Living</h1>
-                        <p>Tiny Living is a fictional tiny home builder based in Vancouver, BC. In addition to their design and building services, they print a monthly magazine.</p>
-                        <p>The objective was to create a magazine cover, a landing page mockup and a banner ad. These assets would showcase the company&apos;s products and  unique brand identity.</p>
+                <section class="project-bnr m-top p-top">
+                    <div class="grid container">
+                        <div class="proj-bnr-info col-12 col-6-lg">
+                            <ul class="d-flex">
+                                <li>Print</li>
+                                <li>Web</li>
+                                <li>Logo</li>
+                                <li>Brand Identity</li>
+                            </ul>
+                            <h1>Tiny Living</h1>
+                            <p>Tiny Living is a fictional tiny home builder based in Vancouver, BC. In addition to their design and building services, they print a monthly magazine.</p>
+                            <p>The objective was to create a magazine cover, a landing page mockup and a banner ad. These assets would showcase the company&apos;s products and  unique brand identity.</p>
+                        </div>
+                        <img class="lazy tliving-preview-img col-12 col-6-lg" src="<?php echo get_public_url('/images/placeholder.svg'); ?>" data-src="<?php echo get_public_url("/images/tliving-mag-cover.png")?>" alt="Preview of the Tiny Living magazine cover" >
                     </div>
-                    <img class="lazy tliving-preview-img col-12" src="<?php echo get_public_url('/images/placeholder.svg'); ?>" data-src="<?php echo get_public_url("/images/tliving-mag-cover.png")?>" alt="Preview of the Tiny Living magazine cover" >
                 </section>
                 <section class="project-info">
                     <ul class="grid">
