@@ -101,7 +101,7 @@ code {
         font-size: 1.329rem;
     }
 
-    li, p, figcaption, a {
+    li, p, figcaption, a, code {
         // font-size -> 17px
         font-size: 1.063rem
     }
@@ -129,7 +129,7 @@ code {
         font-size: 1.406rem;
     }
 
-    li, p, figcaption, a {
+    li, p, figcaption, a, code {
         // font size = 18px
         font-size: 1.125rem;
     }
@@ -157,7 +157,7 @@ code {
         font-size: 1.485rem;
     }
 
-    li, p, figcaption, a {
+    li, p, figcaption, a, code {
         // equivalent to 19px
         font-size: 1.188rem;
     }
@@ -185,7 +185,7 @@ code {
         font-size: 1.562rem;
     }
 
-    li, p, figcaption, a {
+    li, p, figcaption, a, code {
         // equal to 20px
         font-size: 1.25rem;
     }
@@ -213,8 +213,36 @@ code {
         font-size: 1.641rem;
     }
 
-    li, p, figcaption, a {
+    li, p, figcaption, a, code{
         // equal to 21px
         font-size: 1.313rem;
+    }
+}
+
+@media screen and (min-width: 2560px) {
+
+    h1 {
+        font-size: 4.578rem;
+    }
+    
+    h2 {
+        font-size: 3.662rem;
+    }
+    
+    h3 {
+        font-size: 2.93rem;
+    }
+    
+    h4 {
+        font-size: 2.34rem;
+    }
+    
+    h5 {
+        font-size: 1.875rem;
+    }
+
+    li, p, figcaption, a, code {
+        // equal to 24px
+        font-size: 1.5rem;
     }
 }
