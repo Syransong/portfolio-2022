@@ -4,9 +4,22 @@
     border-radius: 0px 0px 10px 10px;
     filter: drop-shadow(6px 10px 8px rgba(50, 50, 93, 0.25));
     width: 100%;
+    margin: 0 auto;
 }
 
 .todo-code-snippet {
     margin-bottom: 1rem;
     width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .todo-preview {
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .todo-preview {
+        width: 90%;
+    }
 }

@@ -4,6 +4,7 @@
     border-radius: 0px 0px 10px 10px;
     filter: drop-shadow(6px 10px 8px rgba(50, 50, 93, 0.25));
     width: 100%;
+    margin: 0 auto;
 }
 
 .tliving-final-poster {
@@ -25,8 +26,16 @@
 /*----------------------------------
 Media Queries
 ----------------------------------*/
+@media screen and (min-width: 576px) {
+    .tliving-web-preview {
+        width: 70%;
+    }
+}
 
 @media screen and (min-width: 1024px) {
+    .tliving-web-preview {
+        width: 100%;
+    }
 
     .tliving-final-poster {
         order: -2;
