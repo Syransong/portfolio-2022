@@ -1,7 +1,7 @@
 <header>
     <div class="container d-flex site-header">
         <a href="<?php echo get_public_url('/index.php'); ?>" title="Home">
-            <img class="lazy" src="<?php echo get_public_url('/images/placeholder.svg'); ?>" data-src="<?php echo get_public_url('/images/ksong-logo.svg'); ?>" alt="Karina Song Logo">
+            <img src="<?php echo get_public_url('/images/ksong-logo.svg'); ?>" alt="Karina Song Logo" >
         </a>
         <nav class="gn">
             <ul class="d-flex nav-menu">
