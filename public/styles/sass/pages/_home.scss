@@ -113,12 +113,8 @@ Media Queries
 }
 
 @media screen and (min-width: 1400px) {
-    .bnr img {
-        // width: 80%;
-    }
-
+ 
     .featured-work ul {
-        // max-width: 67.5rem;
         margin: 0 auto;
     }
 }

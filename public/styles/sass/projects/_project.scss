@@ -29,14 +29,12 @@ Project banner
 
 figure {
     margin: 0 auto;
-    // overflow: hidden;
     transition: 0.3s ease-in-out;
     cursor: pointer;
 }
 
 figure img {
     width: 100%;
-    // object-fit: cover;
     transition: 0.3s ease-in-out;
     
 }
@@ -92,14 +90,4 @@ Media Queries
     .project-info h3, .project-summary h3 {
         font-size: 2rem;
     }
-}
-
-@media screen and (min-width: 1400px) {
-    // .proj-bnr-info {
-    //     grid-column: 2 / 6;
-    // }
-
-    // .project-bnr img {
-    //     grid-column: 7 / 12;
-    // }
 }

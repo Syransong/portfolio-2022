@@ -1,4 +1,3 @@
-// base text, imag estyles, visual styles, font size, 
 @use "../config"; 
 
 html {
@@ -54,7 +53,6 @@ a:focus {
 
 @media screen and (min-width: 1440px) {
     section {
-        // max-width: 1280px;
         margin: 0 auto;
     }
 }
