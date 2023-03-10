@@ -11,7 +11,7 @@ body {
 }
 
 section {
-    padding: 4rem 1rem;
+    padding: 2rem 1rem;
 }
 
 .bul-list {
@@ -35,19 +35,19 @@ a:focus {
 
 @media screen and (min-width: 576px) {
     section {
-        padding: 4rem 2rem;
+        padding: 3rem 2rem;
     }
 }
 
 @media screen and (min-width: 768px) {
     section {
-        padding: 4rem;
+        padding: 3rem;
     }
 }
 
 @media screen and (min-width: 1200px) {
     section {
-        padding: 7rem;
+        padding: 4rem;
     }
 }
 
