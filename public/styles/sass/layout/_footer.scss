@@ -5,6 +5,7 @@ Footer
 ----------------------------------*/
 footer {
     background-color: config.$turquoise;
+    margin-top: auto;
 }
 
 .footer {
@@ -14,7 +15,6 @@ footer {
     align-items: center;
     color: config.$white;
     gap: 1rem;
-    margin-top: auto;
 }
 
 footer img {
