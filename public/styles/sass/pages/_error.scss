@@ -7,6 +7,37 @@
 
 .error-image {
     max-width: 550px;
-    width: 100%;
+    width: 70%;
     height: auto;
+    margin-bottom: 2rem;
+}
+
+@media screen and (min-width: 576px) {
+    .error-image {
+        width: 60%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .error-image {
+        width: 40%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .error-image {
+        width: 30%;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .error-image {
+        width: 20%;
+    }
+}
+
+@media screen and (min-width: 2560px) {
+    .error-image {
+        width: 15%;
+    }
 }
