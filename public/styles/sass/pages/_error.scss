@@ -5,6 +5,7 @@
     align-items: center;
     min-height: 75vh;
     justify-content: center;
+    text-align: center;
 }
 
 .error-image {
@@ -27,6 +28,7 @@
 
     .error-page {
         min-height: 77vh;
+        gap: 1rem;
     }
 }
 
@@ -42,7 +44,7 @@
     }
 
     .error-page {
-        min-height: 85vh;
+        min-height: 82vh;
     }
 }
 
