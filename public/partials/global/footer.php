@@ -1,7 +1,7 @@
 <footer id="footer">
     <div class="footer d-flex container">
         <button id="scroll-top" title="Back to Top"></button>
-        <p>&copy; Karina Song 2022</p>
+        <p>&copy; Karina Song 2023</p>
         <ul class="d-flex soc-med">
             <li>
                 <a href="mailto:ksysong@gmail.com" title="Email me">

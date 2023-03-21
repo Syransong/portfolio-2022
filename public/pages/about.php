@@ -18,7 +18,7 @@
                         <img class="lazy col-12 col-6-lg" src="<?php echo get_public_url('/images/placeholder.svg'); ?>" data-src="<?php echo get_public_url('/images/ksong-pfp.jpg')?>" alt="Picture of Karina Song looking up">
                         <div class="about-info col-12 col-6-lg">
                             <h1>About Me</h1>
-                            <p>Full-stack web developer and designer pivoting from Quality Assurance in the food industry. My love of the web development and design world started with a UX course and ran from there. I loved getting wrapped up in everything from working through a bug to moving a pixel by one space.</p>
+                            <p>Full-stack web developer and designer pivoting from Quality Assurance in the food industry. My love of the web development and design world started with a UX course and ran from there. I love getting wrapped up in everything from working through a bug to moving a pixel by one space.</p>
                             <p>My goal is to pursue a career in Canada where I am able to bridge the gap between design and development. I hope to start this journey with an internship in Summer 2023. Later in my career, I would like to specialize in creating accessible designs. </p>
                         </div>
                     </div>
@@ -30,7 +30,7 @@
                             <ul>
                                 <li>
                                     <h3>Languages</h3>
-                                    <p>Javascript, PHP, Ruby, SQL, HTML, CSS</p>
+                                    <p>JavaScript, PHP, Ruby, SQL, HTML, CSS</p>
                                 </li>
                                 <li>
                                     <h3>Frameworks/Libraries</h3>
@@ -56,7 +56,7 @@
                                 <li>
                                     <div class="d-flex institute">
                                         <h3>BCIT</h3>
-                                        <p>Currently Enrolled</p>
+                                        <p>Expected July 2023</p>
                                     </div>
                                     <p>New Media Design & Web Development Diploma</p>
                                 </li>
