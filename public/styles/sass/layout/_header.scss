@@ -100,13 +100,6 @@ Hamburger Toggle
 Media Queries
 ----------------------------------*/
 
-@media screen and (min-width: 576px) {
-    .site-header {
-        flex-direction: row;
-        padding: 20px 2rem;
-    }
-}
-
 @media screen and (min-width: 768px) {
     .hamburger {
         display: none;
