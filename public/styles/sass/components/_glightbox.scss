@@ -17,3 +17,17 @@
 .glightbox-container .gslide-inner-content {
     max-width: 90%;
 }
+
+.gslide-image img.zoomable {
+    width: 100%;
+    max-height: 85vh;
+}
+
+.glightbox-mobile .glightbox-container .gslide-description {
+    padding-bottom: 0;
+    text-align: center;
+}
+
+.desc-bottom .gslide-image img, .desc-top .gslide-image img {
+    width: 100%;
+}
