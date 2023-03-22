@@ -1,7 +1,7 @@
 @use "../config";
 
 .small-card .proj-link {
-    color: config.$turquoise;
+    color: config.$dark-turquoise;
     text-decoration: none;
     font-family: config.$primary-fonts;
     font-weight: 500;
@@ -35,7 +35,7 @@
         height: 3px;
         bottom: -3px;
         left: 0;
-        background-color: config.$turquoise;
+        background-color: config.$dark-turquoise;
         visibility: hidden;
         transition: all 0.3s ease-in-out;
     }

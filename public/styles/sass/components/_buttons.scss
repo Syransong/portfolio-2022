@@ -4,8 +4,8 @@
     font-family: config.$primary-fonts;
     text-decoration: none;
     font-weight: 500;
-    background-color: config.$turquoise;
-    border: 0.2rem solid config.$turquoise;
+    background-color: config.$dark-turquoise;
+    border: 0.2rem solid config.$dark-turquoise;
     padding: 15px 20px;
     color: config.$white;
     border-radius: 15px;
@@ -24,7 +24,7 @@ Media Queries
 @media (min-width: 1000px) {
     .btn:hover {
         background-color: config.$white;
-        color: config.$turquoise;
+        color: config.$dark-turquoise;
     }
 }
 
