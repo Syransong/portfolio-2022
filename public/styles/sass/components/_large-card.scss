@@ -63,7 +63,7 @@ Media Queries
     .large-card img {
         min-width: 437px;
     }
-    
+
     .large-card {
         flex-direction: row;
         max-width: 1280px;
@@ -98,5 +98,6 @@ Media Queries
 
     .large-card:hover {
         transform: translate(0, -10px);
+        cursor: pointer;
     }
 }
