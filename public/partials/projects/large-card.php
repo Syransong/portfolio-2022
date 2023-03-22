@@ -11,7 +11,7 @@
             </ul>
             <h1><?php echo h($project->name); ?></h1>
             <p><?php echo h($project->description); ?></p>
-            <a class="proj-link">View Project &rarr;</a>
+            <span class="proj-link">View Project &rarr;</span>
         </div>
     </div>
 </a>
