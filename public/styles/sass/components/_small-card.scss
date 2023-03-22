@@ -1,6 +1,6 @@
 @use "../config";
 
-.small-card a {
+.small-card .proj-link {
     color: config.$turquoise;
     text-decoration: none;
     font-family: config.$primary-fonts;
@@ -28,7 +28,7 @@
         margin: 1rem 0;
     }
 
-    .small-card a::before {
+    .small-card .proj-link::before {
         content: "";
         position: absolute;
         display: block;
@@ -41,7 +41,7 @@
         transition: all 0.3s ease-in-out;
     }
     
-    .small-card a:hover::before {
+    .small-card .proj-link:hover::before {
         visibility: visible;
         width: 100%;
     }

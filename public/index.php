@@ -53,10 +53,12 @@
                         <h2>Featured Work</h2>
                         <ul class="grid">
                             <li class="col-12 col-6-md col-4-lg small-card">
-                                <img class="lazy" src="<?php echo get_public_url('/images/placeholder.svg'); ?>" data-src="<?php echo get_public_url('/images/rapidish-square-tn.jpg'); ?>" alt="Tablet and mobile mockup previews of the Rapidish site">
-                                <h3>Rapidish</h3>
-                                <p>Front-end</p>
-                                <a href="<?php echo get_public_url('/projects/rapidish.php');?>">View Project &rarr;</a>
+                                <a href="<?php echo get_public_url('/projects/rapidish.php');?>" title="Go to Rapidish project">
+                                    <img class="lazy" src="<?php echo get_public_url('/images/placeholder.svg'); ?>" data-src="<?php echo get_public_url('/images/rapidish-square-tn.jpg'); ?>" alt="Tablet and mobile mockup previews of the Rapidish site">
+                                    <h3>Rapidish</h3>
+                                    <p>Front-end</p>
+                                    <span class="proj-link">View Project &rarr;</span>
+                                </a>
                             </li>
                             <li class="col-12 col-6-md col-4-lg small-card">
                                 <img class="lazy" src="<?php echo get_public_url('/images/placeholder.svg'); ?>" data-src="<?php echo get_public_url('/images/todo-square-tn.jpg'); ?>" alt="Preview of Dark and Light mode of the React To-do App">
