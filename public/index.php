@@ -53,16 +53,16 @@
                         <h2>Featured Work</h2>
                         <ul class="grid">
                             <li class="col-12 col-6-md col-4-lg small-card">
-                                <img class="lazy" src="<?php echo get_public_url('/images/placeholder.svg'); ?>" data-src="<?php echo get_public_url('/images/linmon-square-tn.jpg'); ?>" alt="A mockup up of a glass bottle and a juicebox of Linmon Lemon tea">
-                                <h3>Linmon</h3>
-                                <p>Product Design, Brand Identity</p>
-                                <a href="<?php echo get_public_url('/projects/linmon.php');?>">View Project &rarr;</a>
+                                <img class="lazy" src="<?php echo get_public_url('/images/placeholder.svg'); ?>" data-src="<?php echo get_public_url('/images/rapidish-square-tn.jpg'); ?>" alt="Tablet and mobile mockup previews of the Rapidish site">
+                                <h3>Rapidish</h3>
+                                <p>Front-end</p>
+                                <a href="<?php echo get_public_url('/projects/rapidish.php');?>">View Project &rarr;</a>
                             </li>
                             <li class="col-12 col-6-md col-4-lg small-card">
-                                <img class="lazy" src="<?php echo get_public_url('/images/placeholder.svg'); ?>" data-src="<?php echo get_public_url('/images/ematcha-square-tn.jpg'); ?>" alt="Mockup of the Emerald Matcha stationery set">
-                                <h3>Emerald Matcha</h3>
-                                <p>Product Design, Brand Identity</p>
-                                <a href="<?php echo get_public_url('/projects/ematcha.php');?>">View Project &rarr;</a>
+                                <img class="lazy" src="<?php echo get_public_url('/images/placeholder.svg'); ?>" data-src="<?php echo get_public_url('/images/todo-square-tn.jpg'); ?>" alt="Preview of Dark and Light mode of the React To-do App">
+                                <h3>React To-Do App</h3>
+                                <p>Back-end</p>
+                                <a href="<?php echo get_public_url('/projects/react-todo.php');?>">View Project &rarr;</a>
                             </li>
                             <li class="col-12 col-6-md col-4-lg small-card">
                                 <img class="lazy" src="<?php echo get_public_url('/images/placeholder.svg'); ?>" data-src="<?php echo get_public_url('/images/tliving-square-tn.jpg'); ?>" alt="Preview of Tiny Living's landing page">
