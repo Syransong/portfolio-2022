@@ -61,16 +61,20 @@
                                 </a>
                             </li>
                             <li class="col-12 col-6-md col-4-lg small-card">
-                                <img class="lazy" src="<?php echo get_public_url('/images/placeholder.svg'); ?>" data-src="<?php echo get_public_url('/images/todo-square-tn.jpg'); ?>" alt="Preview of Dark and Light mode of the React To-do App">
-                                <h3>React To-Do App</h3>
-                                <p>Back-end</p>
-                                <a href="<?php echo get_public_url('/projects/react-todo.php');?>">View Project &rarr;</a>
+                                <a href="<?php echo get_public_url('/projects/react-todo.php');?>" title="Go to React To-do App project">
+                                    <img class="lazy" src="<?php echo get_public_url('/images/placeholder.svg'); ?>" data-src="<?php echo get_public_url('/images/todo-square-tn.jpg'); ?>" alt="Preview of Dark and Light mode of the React To-do App">
+                                    <h3>React To-Do App</h3>
+                                    <p>Back-end</p>
+                                    <span class="proj-link">View Project &rarr;</span>
+                                </a>
                             </li>
                             <li class="col-12 col-6-md col-4-lg small-card">
-                                <img class="lazy" src="<?php echo get_public_url('/images/placeholder.svg'); ?>" data-src="<?php echo get_public_url('/images/tliving-square-tn.jpg'); ?>" alt="Preview of Tiny Living's landing page">
-                                <h3>Tiny Living</h3>
-                                <p>Print Design, Web Design</p>
-                                <a href="<?php echo get_public_url('/projects/tliving.php');?>">View Project &rarr;</a>
+                                <a href="<?php echo get_public_url('/projects/tliving.php');?>" title="Go to Tiny Living project">
+                                    <img class="lazy" src="<?php echo get_public_url('/images/placeholder.svg'); ?>" data-src="<?php echo get_public_url('/images/tliving-square-tn.jpg'); ?>" alt="Preview of Tiny Living's landing page">
+                                    <h3>Tiny Living</h3>
+                                    <p>Print Design, Web Design</p>
+                                    <span class="proj-link">View Project &rarr;</span>
+                                </a>
                             </li>
                         </ul>
                     </div>
