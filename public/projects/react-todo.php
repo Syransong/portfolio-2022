@@ -6,7 +6,8 @@
     <?php 
         $meta_title = "React To-do App - Web Development Project by Karina Song";
         $meta_description = "This project is a simple to-do app made with React. Users can create, edit and delete tasks, as well customize the app’s appearance. The purpose of creating this project was to review the React library and its core principles.";
-        
+        $meta_image = get_public_url('/images/seo-todo.jpg');
+
         require(get_project_path('public/partials/global/head.php')); 
     ?>
     <body>

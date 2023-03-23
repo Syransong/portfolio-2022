@@ -6,7 +6,8 @@
     <?php 
         $meta_title = "Rapidish - Web Development Project by Karina Song";
         $meta_description = "Rapidish is a fictional meal delivery company. To demonstrate skills in mobile-first and responsive design, a landing page was created.";
-        
+        $meta_image = get_public_url('/images/seo-rapidish.jpg');
+
         require(get_project_path('public/partials/global/head.php')); 
     ?>
     <body>

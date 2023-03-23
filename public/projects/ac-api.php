@@ -6,6 +6,7 @@
     <?php 
         $meta_title = "Animal Crossing API Project - Web Development Project by Karina Song";
         $meta_description = "This page makes API calls to the Nookpedia API to show some information about villagers from the Animal Crossing game. Users can also filter for certain species.";
+        $meta_image = get_public_url('/images/seo-ac-api.jpg');
         
         require(get_project_path('public/partials/global/head.php')); 
     ?>

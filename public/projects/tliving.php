@@ -6,7 +6,8 @@
     <?php 
         $meta_title = "Tiny Living - Graphic Design Project by Karina Song";
         $meta_description = "A fictional tiny house building company that also has a print magazine. A logo, magazine cover, landing page and banner ad were created.";
-        
+        $meta_image = get_public_url('/images/seo-tliving.jpg');
+
         require(get_project_path('public/partials/global/head.php')); 
     ?>
     <body>

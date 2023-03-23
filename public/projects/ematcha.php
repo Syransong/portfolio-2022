@@ -6,7 +6,8 @@
     <?php 
         $meta_title = "Emerald Matcha - Graphic Design Project by Karina Song";
         $meta_description = "Emerald Matcha is a fictional matcha powder company. A consistent brand identity was presented by producing a logo, product packaging, and stationery set.";
-        
+        $meta_image = get_public_url('/images/seo-ematcha.jpg');
+
         require(get_project_path('public/partials/global/head.php')); 
     ?>
     <body>

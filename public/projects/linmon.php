@@ -6,7 +6,8 @@
     <?php 
         $meta_title = "Linmon - Graphic Design Project by Karina Song";
         $meta_description = "Linmon is a fictional beverage company that produces lemon-based drinks. To create a strong brand identity, a logo, product packaging and posters were created.";
-        
+        $meta_image = get_public_url('/images/seo-linmon.jpg');
+
         require(get_project_path('public/partials/global/head.php')); 
     ?>
     <body>
