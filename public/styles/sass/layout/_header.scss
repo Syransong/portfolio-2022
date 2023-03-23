@@ -106,7 +106,7 @@ Active Nav Indicator
 
 .nav-link[aria-current="page"]::before {
     content: '.';
-    color: config.$pink;
+    color: config.$yellow;
     display: inline-block;
     font-size: 50px;
 
