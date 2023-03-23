@@ -10,6 +10,10 @@ body {
     flex-direction: column;
 }
 
+html, body {
+    overflow-x: hidden;
+}
+
 section {
     padding: 2rem 1rem;
 }

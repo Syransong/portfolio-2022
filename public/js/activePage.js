@@ -1,6 +1,6 @@
-const activePage = window.location.pathname;
-const navLinks = document.querySelectorAll('nav a').forEach(link => {
-    if(link.href.includes(`${activePage}`)) {
+const navLinks = document.querySelectorAll('.nav-link').forEach(link => {
+
+    if (link.href.replace(/\.[^/.]+$/, "") === window.location.href.replace(/\.[^/.]+$/, "")) {
         link.setAttribute('aria-current', 'page');
-    }
+    };
 });
