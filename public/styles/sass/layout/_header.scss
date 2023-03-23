@@ -100,8 +100,9 @@ Hamburger Toggle
 /*----------------------------------
 Active Nav Indicator
 ----------------------------------*/
-a:is(:link, :active, :visited).active {
-    color: config.$turquoise;
+.nav-link[aria-current="page"] {
+    text-decoration: underline wavy config.$yellow 0.15rem;
+    text-underline-offset: 0.5rem;
 }
 /*----------------------------------
 Media Queries
