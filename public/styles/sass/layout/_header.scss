@@ -100,9 +100,22 @@ Hamburger Toggle
 /*----------------------------------
 Active Nav Indicator
 ----------------------------------*/
-.nav-link[aria-current="page"] {
-    text-decoration: underline wavy config.$yellow 0.15rem;
-    text-underline-offset: 0.5rem;
+.nav-link {
+    position: relative;
+}
+
+.nav-link[aria-current="page"]::before {
+    content: '.';
+    color: config.$pink;
+    display: inline-block;
+    font-size: 50px;
+
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+
+    text-align: center;
+    width: 100%;
 }
 /*----------------------------------
 Media Queries
@@ -121,7 +134,7 @@ Media Queries
 }
 
 @media (min-width: 1024px) {
-    .gn a::before {
+    .gn li::before {
         content: "";
         position: absolute;
         display: block;
@@ -134,7 +147,7 @@ Media Queries
         transition: transform 0.3s ease;
     }
     
-    a:hover::before {
+    li:hover::before {
         transform: scaleX(1);
     }
 }
