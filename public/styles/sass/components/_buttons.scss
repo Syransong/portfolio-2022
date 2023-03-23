@@ -3,7 +3,8 @@
 .btn {
     font-family: config.$primary-fonts;
     text-decoration: none;
-    font-weight: 500;
+    font-weight: 600;
+    letter-spacing: 0.7px;
     background-color: config.$dark-turquoise;
     border: 0.2rem solid config.$dark-turquoise;
     padding: 15px 20px;
