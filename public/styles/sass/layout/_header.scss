@@ -104,19 +104,6 @@ Active Nav Indicator
     position: relative;
 }
 
-.nav-link[aria-current="page"]::before {
-    content: '.';
-    color: config.$yellow;
-    display: inline-block;
-    font-size: 50px;
-
-    position: absolute;
-    bottom: -30px;
-    left: 0;
-
-    text-align: center;
-    width: 100%;
-}
 /*----------------------------------
 Media Queries
 ----------------------------------*/
@@ -131,6 +118,20 @@ Media Queries
         box-shadow: none;
         flex-direction: row;
         padding: 0px;
+    }
+
+    .nav-link[aria-current="page"]::before {
+        content: '.';
+        color: config.$yellow;
+        display: inline-block;
+        font-size: 50px;
+    
+        position: absolute;
+        bottom: -30px;
+        left: 0;
+    
+        text-align: center;
+        width: 100%;
     }
 }
 
