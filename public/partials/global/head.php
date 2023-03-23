@@ -14,12 +14,14 @@
     <meta name="author" content="Karina Song">
     <meta name="description" content="<?php echo $meta_description; ?>">
     <meta name="keywords" content="portfolio, vancouver, bc, canada, web development, UX design, UI design, graphic design, javascript, developer, front-end, back-end, full-stack"/>
-    <!-- Facebook/LinkedIn OG Tags -->
+    <!-- OG Tags -->
     <meta property="og:url" content="<?php echo $meta_url; ?>">
     <meta property="og:type" content="website">
     <meta property="og:title" content="<?php echo $meta_title; ?>">
     <meta property="og:description" content="<?php echo $meta_description; ?>">
     <meta property="og:image" content="<?php echo $meta_image; ?>">
+    <!-- Twitter Card OG Tags -->
+    <meta property="twitter:card" content="summary_large_image" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
