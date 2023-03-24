@@ -28,6 +28,7 @@
                 </section>
                 <section class="skills">
                     <div class="container">
+                        <h2>Skills</h2>
                         <ul class="grid">
                             <li class="col-12 col-6-md col-4-lg">
                                 <img class="lazy" src="<?php echo get_public_url('/images/placeholder.svg'); ?>" data-src="<?php echo get_public_url('/images/gold-star.svg'); ?>" alt="A golden yellow star shape">
