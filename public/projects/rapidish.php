@@ -112,7 +112,7 @@
                             <p>This landing page also has some of the following responsive features:</p>
                             <ul class="bul-list">
                                 <li>Below 768px, the navigation is a hamburger menu for mobile users</li>
-                                <li>The "What's Inside our Meal Kils" section would be a carousel on mobile devices only (below 992px)</li>
+                                <li>The "What's Inside our Meal Kits" section would be a carousel on mobile devices only (below 992px)</li>
                                 <li>Hover effects for buttons kicks in at 1200px</li>
                             </ul>
                         </div>
